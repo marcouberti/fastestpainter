@@ -1,0 +1,177 @@
+<FrameLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >	
+    
+			<LinearLayout
+			              android:id="@+id/layout_root"
+			              android:orientation="vertical"
+			              android:layout_width="wrap_content"
+			              android:layout_height="wrap_content"
+			              android:layout_gravity="center_horizontal"
+			              android:gravity="center_horizontal"
+			              android:minWidth="250dp"
+			              >
+						    <LinearLayout
+							              android:orientation="horizontal"
+							              android:layout_width="wrap_content"
+							              android:layout_height="wrap_content"
+							              android:gravity="center_horizontal"
+							              >
+							              <LinearLayout
+							              android:orientation="horizontal"
+							              android:layout_width="wrap_content"
+							              android:layout_height="wrap_content"
+							              android:gravity="center_vertical"
+							              >
+											    <ImageView android:id="@+id/dialogimage"
+											               android:layout_width="120dp"
+											               android:layout_height="120dp"
+											               />
+								                <ImageView android:id="@+id/dialogimageboss"
+											               android:layout_width="120dp"
+											               android:layout_height="120dp"
+											               />
+								          </LinearLayout>  
+						    </LinearLayout>           
+						    
+						    <LinearLayout
+							              android:orientation="horizontal"
+							              android:layout_width="fill_parent"
+							              android:layout_height="fill_parent"
+							              android:gravity="center_horizontal"
+							              >
+							              <LinearLayout
+							              android:orientation="horizontal"
+							              android:layout_width="wrap_content"
+							              android:layout_height="fill_parent"
+							              android:gravity="center_vertical"
+							              >
+										      <TextView android:id="@+id/dialogpercentage"
+									               android:layout_width="wrap_content"
+									               android:layout_height="wrap_content"
+									               android:padding="1dp"
+									               android:textAppearance="@style/DialogPaintTextPercentageResult_White"
+									               />
+									               <LinearLayout
+											              android:orientation="horizontal"
+											              android:layout_width="wrap_content"
+											              android:layout_height="wrap_content"
+											              android:gravity="center_horizontal"
+											              >
+										                  <ImageView android:id="@+id/dialogstarsimage1"
+												               android:layout_width="42dp"
+												               android:layout_height="42dp"
+												               android:padding="1dp"
+												               />
+											              <ImageView android:id="@+id/dialogstarsimage2"
+												               android:layout_width="42dp"
+												               android:layout_height="42dp"
+												               android:padding="1dp"
+												               />
+											              <ImageView android:id="@+id/dialogstarsimage3"
+												               android:layout_width="42dp"
+												               android:layout_height="42dp"
+												               android:padding="1dp"
+												               />
+												   </LinearLayout>
+								          </LinearLayout>
+							</LinearLayout>
+						    
+						    <LinearLayout
+						              android:id="@+id/dialogbestandcreditscontainer"
+						              android:orientation="horizontal"
+						              android:layout_width="wrap_content"
+						              android:layout_height="wrap_content"
+						              android:layout_gravity="center_horizontal"
+						              android:gravity="center_horizontal"
+						              >
+						            <TextView android:id="@+id/dialogcredits"
+								          android:layout_width="wrap_content"
+								          android:layout_height="wrap_content"
+								          android:padding="1dp"
+								          android:textAppearance="@style/DialogPaintText_White_Smaller"
+								          android:text="EXPERIENCE: 0"
+								    />
+								    <!-- ##### NON RIMUOVERE IMMAGINE DI TRASPARENZA PER SPAZIARE -->
+								    <ImageView 
+							    		   android:id="@+id/traspcredits"
+							               android:layout_width="10dp"
+							               android:layout_height="5dp"
+							               android:src="@drawable/transparent"
+							               />
+								    <TextView android:id="@+id/dialogbesttext"
+								          android:layout_width="wrap_content"
+								          android:layout_height="wrap_content"
+								          android:padding="1dp"
+								          android:textAppearance="@style/DialogPaintText_White_Smaller"
+								          android:text="RECORD: 99%"
+								    />
+						    </LinearLayout>
+						    
+						    <LinearLayout
+						              android:id="@+id/dialogbuttoncontainer"
+						              android:orientation="horizontal"
+						              android:layout_width="wrap_content"
+						              android:layout_height="wrap_content"
+						              android:layout_gravity="center_horizontal"
+						              android:gravity="center_horizontal"
+						              >
+						        
+							    <ImageView android:id="@+id/continueButton"
+							              android:layout_width="50dip"
+							              android:layout_height="50dip"
+							              android:textColor="#000"
+							              android:gravity="center"
+							              android:src="@drawable/btn_right"
+							              />
+							    <ImageView android:id="@+id/retryButton"
+							              android:layout_width="50dip"
+							              android:layout_height="50dip"
+							              android:textColor="#000"
+							              android:gravity="center"
+							              android:src="@drawable/btn_refresh"
+							              />
+							    <ImageView android:id="@+id/nextButton"
+							              android:layout_width="50dip"
+							              android:layout_height="50dip"
+							              android:textColor="#000"
+							              android:gravity="center"
+							              android:src="@drawable/btn_avanti"
+							              />
+							    <ImageView android:id="@+id/levelMenuButton"
+							              android:layout_width="50dip"
+							              android:layout_height="50dip"
+							              android:textColor="#000"
+							              android:gravity="center"
+							              android:src="@drawable/btn_menu"
+							              />
+						    </LinearLayout>
+			</LinearLayout>
+			<!-- Qui ci mettiamo i messaggi NEW RECORD -->
+			<RelativeLayout
+		        	android:layout_width="fill_parent"
+				    android:layout_height="fill_parent"
+				    >
+				   
+			              <ImageView android:id="@+id/recordimage"
+			              				  
+							              android:layout_width="200dp"
+							              android:layout_height="200dp"
+							              android:src="@drawable/record"/>
+					
+		     </RelativeLayout>
+     
+     <!-- Qui ci mettiamo i messaggi SEZIONE SBLOCCATA/ARMA SBLOCCATA che se li tocchi svaniscono
+     <RelativeLayout
+        	android:layout_width="fill_parent"
+		    android:layout_height="fill_parent"
+		    android:gravity="center"
+		    android:layout_gravity="center">
+	              <ImageView android:id="@+id/overimage"
+					              android:layout_width="200dip"
+					              android:layout_height="200dip"
+					              android:src="@drawable/transparent"/>
+      </RelativeLayout>
+       -->
+</FrameLayout>

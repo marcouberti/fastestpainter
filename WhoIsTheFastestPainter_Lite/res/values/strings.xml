@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+   <string name="app_name">Fastest Painter</string>
+   <string name="continua">PLAY</string>
+   <string name="atelier">TRAINING</string>
+   <string name="experience">COINS</string>
+   <string name="armi">TRICKS &#38; TRAPS</string>
+   <string name="textexit">QUIT THE GAME?</string>
+   <string name="addprobabilitytext">BUY THIS TRICK &#38; TRAP?</string>
+   <string name="sectionunlocked">SECTION UNLOCKED</string>
+   <string name="bonusunlocked">BONUS UNLOCKED</string>
+   <string name="ammounlocked">TRICK &#38; TRAP UNLOCKED</string>
+   <string name="ammounlocked2">YOU CAN BUY IT NOW!</string>
+   <string name="blocked">PRO VERSION</string>
+   <string name="price">PRICE</string>
+   <string name="skip">SKIP</string>
+   <string name="congratulation">CONGRATULATIONS!\nNOW TRY TO UNLOCK ALL BONUS PICTURES \nGETTING THREE STARS ON ALL LEVELS.</string>
+</resources>
