@@ -31,15 +31,22 @@ import android.media.AudioManager;
 import android.net.Uri;
 import android.os.Bundle;
 import android.os.Debug;
+import android.support.v4.app.DialogFragment;
+import android.support.v4.app.Fragment;
+import android.support.v4.app.FragmentActivity;
+import android.support.v4.app.FragmentTransaction;
 import android.util.Log;
 import android.view.KeyEvent;
+import android.view.LayoutInflater;
 import android.view.MotionEvent;
 import android.view.View;
+import android.view.ViewGroup;
 import android.view.Window;
 import android.view.View.OnClickListener;
 import android.view.View.OnTouchListener;
 import android.view.animation.Animation;
 import android.view.animation.Animation.AnimationListener;
+import android.widget.Button;
 import android.widget.FrameLayout;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
@@ -47,7 +54,7 @@ import android.widget.RelativeLayout;
 import android.widget.TextView;
 
 
-public class MenuActivity extends Activity{
+public class MenuActivity extends FragmentActivity{
 	//Typeface font; 
 	float DENSITY = 1.0f;
 	
@@ -560,6 +567,72 @@ public class MenuActivity extends Activity{
         //Imposto il volume all'inizio, cosi l'utente poi lo controlla solo con i tasti del device
         SoundManager.initVolume(getApplicationContext());
         
+        showMarketingDialog();
     }
 
+    public void showMarketingDialog() {
+        
+        FragmentTransaction ft = getSupportFragmentManager().beginTransaction();
+        Fragment prev = getSupportFragmentManager().findFragmentByTag("dialog");
+        if (prev != null) {
+            ft.remove(prev);
+        }
+        ft.addToBackStack(null);
+
+        // Create and show the dialog.
+        DialogFragment newFragment = MarketingFragment.newInstance();
+        newFragment.show(ft, "dialog");
+    }
+    
+    public static class MarketingFragment extends DialogFragment {
+	    
+	    /**
+	     * Create a new instance of MarketingFragment
+	     */
+	    static MarketingFragment newInstance() {
+	    	MarketingFragment f = new MarketingFragment();
+
+	        // Supply num input as an argument.
+	        Bundle args = new Bundle();
+	        //args.putInt("num", num);
+	        f.setArguments(args);
+
+	        return f;
+	    }
+
+	    @Override
+	    public void onCreate(Bundle savedInstanceState) {
+	        super.onCreate(savedInstanceState);
+	       
+	        // Pick a style
+	        int style = DialogFragment.STYLE_NORMAL;
+	        setStyle(style, android.R.style.Theme_Translucent_NoTitleBar_Fullscreen);
+	    }
+
+	    @Override
+	    public View onCreateView(LayoutInflater inflater, ViewGroup container,
+	            Bundle savedInstanceState) {
+	        View v = inflater.inflate(R.layout.marketing_dialog, container, false);
+	        
+	        // Watch for button clicks.
+	        ImageView image = (ImageView)v.findViewById(R.id.marketingImage);
+	        Button noButton = (Button)v.findViewById(R.id.no);
+	        image.setOnClickListener(new OnClickListener() {
+	            public void onClick(View v) {
+	            	dismiss();
+	            	Intent goToMarket = null;
+		        	goToMarket = new Intent(Intent.ACTION_VIEW,Uri.parse("market://details?id=com.invenktion.monstersdiscovery"));
+		        	startActivity(goToMarket);
+		        	SoundManager.pauseBackgroundMusic();
+	            }
+	        });
+	        noButton.setOnClickListener(new OnClickListener() {
+	            public void onClick(View v) {
+	            	dismiss();
+	            }
+	        });
+
+	        return v;
+	    }
+	}
 }
