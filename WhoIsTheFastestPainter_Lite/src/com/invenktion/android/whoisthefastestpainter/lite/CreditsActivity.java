@@ -165,7 +165,7 @@ public class CreditsActivity extends Activity{
 		});
         whois1.setOnClickListener(new OnClickListener() {
 			public void onClick(View v) {
-				Intent myIntent = new Intent(Intent.ACTION_VIEW,Uri.parse("http://www.whoisthefastestpainter.com"));
+				Intent myIntent = new Intent(Intent.ACTION_VIEW,Uri.parse("http://www.invenktion.com"));
 		        startActivity(myIntent);
 			}
 		});

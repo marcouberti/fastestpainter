@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+   <string name="app_id">587787887925853</string>
    <string name="app_name">Fastest Painter</string>
    <string name="continua">PLAY</string>
    <string name="atelier">TRAINING</string>

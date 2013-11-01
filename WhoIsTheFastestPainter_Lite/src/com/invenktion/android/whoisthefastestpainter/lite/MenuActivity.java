@@ -1,5 +1,14 @@
 package com.invenktion.android.whoisthefastestpainter.lite;
 
+import java.security.MessageDigest;
+import java.security.NoSuchAlgorithmException;
+
+import com.facebook.LoggingBehavior;
+import com.facebook.Session;
+import com.facebook.SessionState;
+import com.facebook.Settings;
+import com.facebook.UiLifecycleHelper;
+import com.facebook.widget.LoginButton;
 import com.invenktion.android.whoisthefastestpainter.lite.core.AnimationFactory;
 import com.invenktion.android.whoisthefastestpainter.lite.core.ApplicationManager;
 import com.invenktion.android.whoisthefastestpainter.lite.core.FontFactory;
@@ -19,6 +28,10 @@ import android.app.KeyguardManager;
 import android.content.BroadcastReceiver;
 import android.content.Intent;
 import android.content.IntentFilter;
+import android.content.pm.PackageInfo;
+import android.content.pm.PackageManager;
+import android.content.pm.PackageManager.NameNotFoundException;
+import android.content.pm.Signature;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.graphics.Canvas;
@@ -35,6 +48,7 @@ import android.support.v4.app.DialogFragment;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentActivity;
 import android.support.v4.app.FragmentTransaction;
+import android.util.Base64;
 import android.util.Log;
 import android.view.KeyEvent;
 import android.view.LayoutInflater;
@@ -55,6 +69,9 @@ import android.widget.TextView;
 
 
 public class MenuActivity extends FragmentActivity{
+	
+	private static final String TAG = "MenuActivity";
+	
 	//Typeface font; 
 	float DENSITY = 1.0f;
 	
@@ -63,9 +80,52 @@ public class MenuActivity extends FragmentActivity{
 	static final int DIALOG_EXIT_APPLICATION = 0;
 	private boolean waiting = false;
 	private boolean waitingAudio = false;
+
+	private LoginButton loginButton;
+	private Button logoutButton;
+	//FACEBOOK
+	//private UiLifecycleHelper uiHelper;
+
+	private void onSessionStateChange(Session session, SessionState state, Exception exception) {
+	    if (state.isOpened()) {
+	        Log.i(TAG, "Logged in...");
+	        //mostro il bottone di Logout
+	        if(logoutButton!=null) {
+	        	logoutButton.setVisibility(View.VISIBLE);
+	        }
+	        if(loginButton!=null) {
+	        	loginButton.setVisibility(View.GONE);
+	        }
+	    } else if (state.isClosed()) {
+	        Log.i(TAG, "Logged out...");
+	        //mostro il bottone di login
+	        if(logoutButton!=null) {
+	        	logoutButton.setVisibility(View.GONE);
+	        }
+	        if(loginButton!=null) {
+	        	loginButton.setVisibility(View.VISIBLE);
+	        }
+	    }
+	}
+	
+	private Session.StatusCallback callback = new Session.StatusCallback() {
+	    @Override
+	    public void call(Session session, SessionState state, Exception exception) {
+	        onSessionStateChange(session, state, exception);
+	    }
+	};
+	
+	@Override
+	public void onSaveInstanceState(Bundle outState) {
+	    super.onSaveInstanceState(outState);
+	    //uiHelper.onSaveInstanceState(outState);
+	    Session session = Session.getActiveSession();
+        Session.saveSession(session, outState);
+	}
 	
 	@Override
 	protected void onDestroy() {
+		//uiHelper.onDestroy();
 		//Fermo le animazioni
 		ImageView im1 = ((ImageView)findViewById(R.id.roteableimage));
 		ImageView im2 = ((ImageView)findViewById(R.id.roteableimage2));
@@ -211,8 +271,24 @@ public class MenuActivity extends FragmentActivity{
 	}
 
 	@Override
+	public void onActivityResult(int requestCode, int resultCode, Intent data) {
+	    super.onActivityResult(requestCode, resultCode, data);
+	    //uiHelper.onActivityResult(requestCode, resultCode, data);
+	    Session.getActiveSession().onActivityResult(this, requestCode, resultCode, data);
+	}
+
+	@Override
 	protected void onResume() {
 		super.onResume();
+		// For scenarios where the main activity is launched and user
+	    // session is not null, the session state change notification
+	    // may not be triggered. Trigger it if it's open/closed.
+	    Session session = Session.getActiveSession();
+	    if (session != null &&
+	           (session.isOpened() || session.isClosed()) ) {
+	        onSessionStateChange(session, session.getState(), null);
+	    }
+		//uiHelper.onResume();
 		/*
 		ImageView im1 = ((ImageView)findViewById(R.id.roteableimage));
 		ImageView im2 = ((ImageView)findViewById(R.id.roteableimage2));
@@ -280,6 +356,7 @@ public class MenuActivity extends FragmentActivity{
 	@Override
 	protected void onPause() {
 		super.onPause();
+		 //uiHelper.onPause();
 		//Spengo la musica solo se un'altra applicazione è davanti alla nostra (VOICE CALL, HOME Button, etc..)
 		if(ActivityHelper.isApplicationBroughtToBackground(this)) {
 			SoundManager.pauseBackgroundMusic();
@@ -287,30 +364,16 @@ public class MenuActivity extends FragmentActivity{
 	}
 
 	@Override
-	protected void onStop() {
-		super.onStop();
-		//Log.d("stop MENU","stop MENU");
-		//Fermo le animazioni
-		/*
-		ImageView im1 = ((ImageView)findViewById(R.id.roteableimage));
-		ImageView im2 = ((ImageView)findViewById(R.id.roteableimage2));
-		ImageView im3 = ((ImageView)findViewById(R.id.roteableimage3));
-		ImageView im4 = ((ImageView)findViewById(R.id.roteableimage4));
-		ImageView im5 = ((ImageView)findViewById(R.id.roteableimage5));
-		
-		im1.clearAnimation();
-		im2.clearAnimation();
-		im3.clearAnimation();
-		im4.clearAnimation();
-		im5.clearAnimation();
-		
-		im1.setAnimation(null);
-		im2.setAnimation(null);
-		im3.setAnimation(null);
-		im4.setAnimation(null);
-		im5.setAnimation(null);
-		*/
-	}
+    public void onStart() {
+        super.onStart();
+        Session.getActiveSession().addCallback(callback);
+    }
+
+    @Override
+    public void onStop() {
+        super.onStop();
+        Session.getActiveSession().removeCallback(callback);
+    }
 	
 	
 	private boolean checkApplicationKill() {
@@ -329,6 +392,10 @@ public class MenuActivity extends FragmentActivity{
         super.onCreate(savedInstanceState);
         boolean killed = checkApplicationKill();
         if(killed) return;
+        
+        //uiHelper = new UiLifecycleHelper(this, callback);
+        //uiHelper.onCreate(savedInstanceState);
+        
         IntentFilter filter = new IntentFilter(Intent.ACTION_SCREEN_ON);
         filter.addAction(Intent.ACTION_SCREEN_OFF);
         filter.addAction(Intent.ACTION_USER_PRESENT);
@@ -343,6 +410,59 @@ public class MenuActivity extends FragmentActivity{
 
         ImageView mascotteImage = (ImageView)findViewById(R.id.mascotteimage);
         mascotteImage.setLayoutParams(new LinearLayout.LayoutParams((int)(ApplicationManager.SCREEN_H/2.5), (int)(ApplicationManager.SCREEN_H/2.5)));
+        
+        //FACEBOOK
+        Settings.addLoggingBehavior(LoggingBehavior.INCLUDE_ACCESS_TOKENS);
+
+        Session session = Session.getActiveSession();
+        if (session == null) {
+            if (savedInstanceState != null) {
+                session = Session.restoreSession(this, null, callback, savedInstanceState);
+            }
+            if (session == null) {
+                session = new Session(this);
+            }
+            Session.setActiveSession(session);
+            if (session.getState().equals(SessionState.CREATED_TOKEN_LOADED)) {
+                session.openForRead(new Session.OpenRequest(this).setCallback(callback));
+            }
+        }
+
+        loginButton = (LoginButton)findViewById(R.id.authButton);
+        
+        logoutButton = (Button)findViewById(R.id.logoutButton);
+        
+        if (session.isOpened()) {
+        	logoutButton.setVisibility(View.VISIBLE);
+        	loginButton.setVisibility(View.GONE);
+        }else{
+        	logoutButton.setVisibility(View.GONE);
+        	loginButton.setVisibility(View.VISIBLE);
+        }
+        
+        loginButton.setOnClickListener(new OnClickListener() {
+			
+			@Override
+			public void onClick(View v) {
+				Session session = Session.getActiveSession();
+		        if (!session.isOpened() && !session.isClosed()) {
+		            session.openForRead(new Session.OpenRequest(MenuActivity.this).setCallback(callback));
+		        } else {
+		            Session.openActiveSession(MenuActivity.this, true, callback);
+		        }
+			}
+		});
+        
+        logoutButton.setOnClickListener(new OnClickListener() {
+
+        	@Override
+        	public void onClick(View v) {
+        		Session session = Session.getActiveSession();
+                if (!session.isClosed()) {
+                    session.closeAndClearTokenInformation();
+                }
+        	}
+        });
         
         //SOLO LITE
         mascotteImage.setSoundEffectsEnabled(false);
@@ -567,7 +687,8 @@ public class MenuActivity extends FragmentActivity{
         //Imposto il volume all'inizio, cosi l'utente poi lo controlla solo con i tasti del device
         SoundManager.initVolume(getApplicationContext());
         
-        showMarketingDialog();
+        //Rimossa pubblicita del nuovo gioco 1/11/2013
+        //showMarketingDialog();
     }
 
     public void showMarketingDialog() {

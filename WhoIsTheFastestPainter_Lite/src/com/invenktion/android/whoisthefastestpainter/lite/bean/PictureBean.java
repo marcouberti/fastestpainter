@@ -25,11 +25,18 @@ public class PictureBean {
 	private int[] colors;
 	private String univoqueCode;
 	private String title;
+	private String immagineNome;
 	private boolean isTheFirstOfSection;
 	private SoftReference<Bitmap> coloredImageSoftReference= new SoftReference<Bitmap>(null);
 	private int maxRisultatoFisico;
 
-	
+	public void setImmagineNome(String immagineNome) {
+		this.immagineNome = immagineNome;
+	}
+
+	public String getImmagineNome() {
+		return immagineNome;
+	}
 	
 	public int getMaxRisultatoFisico() {
 		return maxRisultatoFisico;
@@ -79,7 +86,7 @@ public class PictureBean {
 	}
 	
 	//Costructor
-	public PictureBean(String univoqueCode,String title,int coloredPicture, int contourPicture,int[] colors, float timeToComplete,boolean first,int maxResult) {
+	public PictureBean(String imgName,String univoqueCode,String title,int coloredPicture, int contourPicture,int[] colors, float timeToComplete,boolean first,int maxResult) {
 		this.coloredPicture = coloredPicture;
 		this.contourPicture = contourPicture;
 		this.timeToComplete = timeToComplete;
@@ -88,6 +95,7 @@ public class PictureBean {
 		this.colors = colors;
 		this.isTheFirstOfSection = first;
 		this.maxRisultatoFisico = maxResult;
+		this.immagineNome = imgName;
 	}
 
 	public boolean isTheFirstOfSection() {

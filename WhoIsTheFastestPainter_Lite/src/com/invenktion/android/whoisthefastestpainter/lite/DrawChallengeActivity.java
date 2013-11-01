@@ -1,8 +1,23 @@
 package com.invenktion.android.whoisthefastestpainter.lite;
 
 
+import java.util.Arrays;
+import java.util.Collection;
+import java.util.List;
 import java.util.Vector;
 
+import org.json.JSONException;
+import org.json.JSONObject;
+
+import com.facebook.FacebookRequestError;
+import com.facebook.HttpMethod;
+import com.facebook.LoggingBehavior;
+import com.facebook.Request;
+import com.facebook.RequestAsyncTask;
+import com.facebook.Response;
+import com.facebook.Session;
+import com.facebook.SessionState;
+import com.facebook.Settings;
 import com.invenktion.android.whoisthefastestpainter.lite.bean.AmmoBean;
 import com.invenktion.android.whoisthefastestpainter.lite.bean.PictureBean;
 import com.invenktion.android.whoisthefastestpainter.lite.bean.SectionArrayList;
@@ -57,9 +72,12 @@ import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
+import android.widget.Toast;
 
 public class DrawChallengeActivity extends Activity {
     
+	private static final String TAG = "DrawChallengeActivity";
+	
 	static final int DIALOG_RESULT_LEVEL = 0;
 	static final int DIALOG_START_LEVEL = 1;
 	static final int DIALOG_PAUSE = 2;
@@ -69,6 +87,10 @@ public class DrawChallengeActivity extends Activity {
 	static final int DIALOG_FINISH_GAME = 6;
 	static final int DIALOG_INSTRUCTION = 7;
 	
+	//facebook
+	private static final List<String> PERMISSIONS = Arrays.asList("publish_actions");
+	private static final String PENDING_PUBLISH_KEY = "pendingPublishReauthorization";
+	private boolean pendingPublishReauthorization = false;
 	//boolean waiting = false;
 	
 	float DENSITY = 1.0f;
@@ -193,6 +215,23 @@ public class DrawChallengeActivity extends Activity {
 		return false;
 	}
 	
+	private void onSessionStateChange(Session session, SessionState state, Exception exception) {
+	    if (state.isOpened()) {
+	        Log.i(TAG, "Logged in...");
+	        
+	    } else if (state.isClosed()) {
+	        Log.i(TAG, "Logged out...");
+	        
+	    }
+	}
+	
+	private Session.StatusCallback callback = new Session.StatusCallback() {
+	    @Override
+	    public void call(Session session, SessionState state, Exception exception) {
+	        onSessionStateChange(session, state, exception);
+	    }
+	};
+	
 	/** Called when the activity is first created. */
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -206,6 +245,23 @@ public class DrawChallengeActivity extends Activity {
         if(extras !=null){
         	gamemode = extras.getString("gamemode");
         	////Log.d("GAMEMODE ######",gamemode);
+        }
+        
+        //FACEBOOK
+        Settings.addLoggingBehavior(LoggingBehavior.INCLUDE_ACCESS_TOKENS);
+
+        Session session = Session.getActiveSession();
+        if (session == null) {
+            if (savedInstanceState != null) {
+                session = Session.restoreSession(this, null, callback, savedInstanceState);
+            }
+            if (session == null) {
+                session = new Session(this);
+            }
+            Session.setActiveSession(session);
+            if (session.getState().equals(SessionState.CREATED_TOKEN_LOADED)) {
+                session.openForRead(new Session.OpenRequest(this).setCallback(callback));
+            }
         }
         
         this.DENSITY = getApplicationContext().getResources().getDisplayMetrics().density;
@@ -823,6 +879,70 @@ public class DrawChallengeActivity extends Activity {
 		        		}.start();
 	        		}
         		}
+        		
+        		//FACEBOOK pubblico su bacheca utente i risultati di gioco
+        		try{
+        			Session session = Session.getActiveSession();
+        			//pubblico solo ai nuovi record (ossia almeno una volta per quadro nuovo durante il gioco arcade)
+        		    if (newrecord && session != null && !session.isClosed()){
+
+        		        // Check for publish permissions    
+        		        List<String> permissions = session.getPermissions();
+        		        if (!isSubsetOf(PERMISSIONS, permissions)) {
+        		            pendingPublishReauthorization = true;
+        		            Session.NewPermissionsRequest newPermissionsRequest = new Session
+        		                    .NewPermissionsRequest(this, PERMISSIONS);
+        		        session.requestNewPublishPermissions(newPermissionsRequest);
+        		            return;
+        		        }
+        		        String nomeQuadro = fingerPaintDrawableView.getPicture().getTitle();
+        		        String nomeImmagine = fingerPaintDrawableView.getPicture().getImmagineNome();
+        		        Bundle postParams = new Bundle();
+        		        postParams.putString("name", "Fastest Painter");
+        		        postParams.putString("caption", "New record!");
+        		        postParams.putString("description", "Passed "+nomeQuadro+" painting with a new record of "+perc+"%");
+        		        postParams.putString("link", "https://play.google.com/store/apps/details?id=com.invenktion.android.whoisthefastestpainter.lite");
+        		        postParams.putString("picture", "http://www.invenktion.com/FastestPainterweb/"+nomeImmagine);
+
+        		        Request.Callback callback= new Request.Callback() {
+        		            public void onCompleted(Response response) {
+        		            	try {
+	        		                JSONObject graphResponse = response
+	        		                                           .getGraphObject()
+	        		                                           .getInnerJSONObject();
+	        		                String postId = null;
+	        		                try {
+	        		                    postId = graphResponse.getString("id");
+	        		                } catch (JSONException e) {
+	        		                    Log.i(TAG,
+	        		                        "JSON error "+ e.getMessage());
+	        		                }
+	        		                FacebookRequestError error = response.getError();
+	        		                if (error != null) {
+	        		                    Toast.makeText(DrawChallengeActivity.this.getApplicationContext(),
+	        		                         error.getErrorMessage(),
+	        		                         Toast.LENGTH_SHORT).show();
+	        		                    } else {
+	        		                    	/*
+	        		                        Toast.makeText(DrawChallengeActivity.this
+	        		                             .getApplicationContext(), 
+	        		                             "Facebook post send with success",
+	        		                             Toast.LENGTH_SHORT).show();
+	        		                             */
+        		                }
+        		            	}catch(Exception e){e.printStackTrace();}
+        		            }
+        		        };
+
+        		        Request request = new Request(session, "me/feed", postParams, 
+        		                              HttpMethod.POST, callback);
+
+        		        RequestAsyncTask task = new RequestAsyncTask(request);
+        		        task.execute();
+        		    }
+        	    }catch(Exception e){
+        	    	e.printStackTrace();
+        	    }
         	}
             break;
         case DIALOG_SECTION_UNLOCKED:
@@ -1014,7 +1134,7 @@ public class DrawChallengeActivity extends Activity {
         }
     };
     
-    //Crea il particolare dialog una volta sola
+	//Crea il particolare dialog una volta sola
     //Per riconfigurarlo usare onPrepareDialog
     //Una veriabile di gestione chiusure per ogni tipo di dialog
     boolean INTENTIONALLY_CLOSED_INSTRUCTION = false;
@@ -1465,6 +1585,15 @@ public class DrawChallengeActivity extends Activity {
             dialog = null;
         }
         return dialog;
+    }
+    
+    private boolean isSubsetOf(Collection<String> subset, Collection<String> superset) {
+        for (String string : subset) {
+            if (!superset.contains(string)) {
+                return false;
+            }
+        }
+        return true;
     }
     
     protected void bloccaITasti(Vector<ImageView> tasti) {

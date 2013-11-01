@@ -168,7 +168,7 @@
 								        	   android:id="@+id/whois1"
 								        	   android:layout_width="wrap_content"
 								               android:layout_height="wrap_content"
-								               android:text="WWW.WHOISTHEFASTESTPAINTER.COM"
+								               android:text="www.invenktion.com"
 								               android:textAppearance="@style/CreditsText_Nero"
 								               android:paddingTop="20dp"
 								               android:paddingBottom="10dp"/>
