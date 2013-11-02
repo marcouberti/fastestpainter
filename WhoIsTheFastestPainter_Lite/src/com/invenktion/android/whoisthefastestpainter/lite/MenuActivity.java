@@ -2,6 +2,9 @@ package com.invenktion.android.whoisthefastestpainter.lite;
 
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
+import java.util.Arrays;
+import java.util.Collection;
+import java.util.List;
 
 import com.facebook.LoggingBehavior;
 import com.facebook.Session;
@@ -83,6 +86,7 @@ public class MenuActivity extends FragmentActivity{
 
 	private LoginButton loginButton;
 	//FACEBOOK
+	private static final List<String> PERMISSIONS = Arrays.asList("publish_actions");
 	private UiLifecycleHelper uiHelper;
 	private Session.StatusCallback callback = 
 	    new Session.StatusCallback() {
@@ -93,9 +97,26 @@ public class MenuActivity extends FragmentActivity{
 	    }
 	};
 
+	private boolean isSubsetOf(Collection<String> subset, Collection<String> superset) {
+		for (String string : subset) {
+			if (!superset.contains(string)) {
+				return false;
+			}
+		}
+		return true;
+	}
+	
 	private void onSessionStateChange(Session session, SessionState state, Exception exception) {
 	    if (state.isOpened()) {
 	        Log.i(TAG, "Logged in...");
+	        // Check for publish permissions    
+	        List<String> permissions = session.getPermissions();
+	        if (!isSubsetOf(PERMISSIONS, permissions)) {
+	            Session.NewPermissionsRequest newPermissionsRequest = new Session
+	                    .NewPermissionsRequest(this, PERMISSIONS);
+	        session.requestNewPublishPermissions(newPermissionsRequest);
+	            return;
+	        }
 	    } else if (state.isClosed()) {
 	        Log.i(TAG, "Logged out...");
 	    }
