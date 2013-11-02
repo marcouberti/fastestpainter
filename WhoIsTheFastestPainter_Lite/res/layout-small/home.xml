@@ -210,20 +210,5 @@
 		        android:layout_height="wrap_content"
 		        android:layout_gravity="center_horizontal"
 		        />
-			<Button
-		        android:id="@+id/logoutButton"
-		        android:layout_marginTop="5dp"
-		        android:layout_marginRight="5dp"
-		        android:layout_alignParentTop="true"
-		        android:layout_alignParentRight="true"
-		        android:layout_width="wrap_content"
-		        android:layout_height="wrap_content"
-		        android:layout_gravity="center_horizontal"
-		        android:background="@drawable/com_facebook_button_blue"
-		        android:textAppearance="@style/com_facebook_loginview_default_style"
-		        android:textColor="#ffffff"
-		        android:padding="5dp"
-		        android:text="Logout"
-		        />
 		</RelativeLayout>
 </FrameLayout>

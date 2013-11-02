@@ -82,50 +82,34 @@ public class MenuActivity extends FragmentActivity{
 	private boolean waitingAudio = false;
 
 	private LoginButton loginButton;
-	private Button logoutButton;
 	//FACEBOOK
-	//private UiLifecycleHelper uiHelper;
+	private UiLifecycleHelper uiHelper;
+	private Session.StatusCallback callback = 
+	    new Session.StatusCallback() {
+	    @Override
+	    public void call(Session session, 
+	            SessionState state, Exception exception) {
+	        onSessionStateChange(session, state, exception);
+	    }
+	};
 
 	private void onSessionStateChange(Session session, SessionState state, Exception exception) {
 	    if (state.isOpened()) {
 	        Log.i(TAG, "Logged in...");
-	        //mostro il bottone di Logout
-	        if(logoutButton!=null) {
-	        	logoutButton.setVisibility(View.VISIBLE);
-	        }
-	        if(loginButton!=null) {
-	        	loginButton.setVisibility(View.GONE);
-	        }
 	    } else if (state.isClosed()) {
 	        Log.i(TAG, "Logged out...");
-	        //mostro il bottone di login
-	        if(logoutButton!=null) {
-	        	logoutButton.setVisibility(View.GONE);
-	        }
-	        if(loginButton!=null) {
-	        	loginButton.setVisibility(View.VISIBLE);
-	        }
 	    }
 	}
-	
-	private Session.StatusCallback callback = new Session.StatusCallback() {
-	    @Override
-	    public void call(Session session, SessionState state, Exception exception) {
-	        onSessionStateChange(session, state, exception);
-	    }
-	};
 	
 	@Override
 	public void onSaveInstanceState(Bundle outState) {
 	    super.onSaveInstanceState(outState);
-	    //uiHelper.onSaveInstanceState(outState);
-	    Session session = Session.getActiveSession();
-        Session.saveSession(session, outState);
+	    uiHelper.onSaveInstanceState(outState);
 	}
 	
 	@Override
 	protected void onDestroy() {
-		//uiHelper.onDestroy();
+		uiHelper.onDestroy();
 		//Fermo le animazioni
 		ImageView im1 = ((ImageView)findViewById(R.id.roteableimage));
 		ImageView im2 = ((ImageView)findViewById(R.id.roteableimage2));
@@ -273,22 +257,14 @@ public class MenuActivity extends FragmentActivity{
 	@Override
 	public void onActivityResult(int requestCode, int resultCode, Intent data) {
 	    super.onActivityResult(requestCode, resultCode, data);
-	    //uiHelper.onActivityResult(requestCode, resultCode, data);
-	    Session.getActiveSession().onActivityResult(this, requestCode, resultCode, data);
+	    uiHelper.onActivityResult(requestCode, resultCode, data);
 	}
 
 	@Override
 	protected void onResume() {
 		super.onResume();
-		// For scenarios where the main activity is launched and user
-	    // session is not null, the session state change notification
-	    // may not be triggered. Trigger it if it's open/closed.
-	    Session session = Session.getActiveSession();
-	    if (session != null &&
-	           (session.isOpened() || session.isClosed()) ) {
-	        onSessionStateChange(session, session.getState(), null);
-	    }
-		//uiHelper.onResume();
+		 uiHelper.onResume();
+		
 		/*
 		ImageView im1 = ((ImageView)findViewById(R.id.roteableimage));
 		ImageView im2 = ((ImageView)findViewById(R.id.roteableimage2));
@@ -356,7 +332,7 @@ public class MenuActivity extends FragmentActivity{
 	@Override
 	protected void onPause() {
 		super.onPause();
-		 //uiHelper.onPause();
+		uiHelper.onPause();
 		//Spengo la musica solo se un'altra applicazione è davanti alla nostra (VOICE CALL, HOME Button, etc..)
 		if(ActivityHelper.isApplicationBroughtToBackground(this)) {
 			SoundManager.pauseBackgroundMusic();
@@ -412,58 +388,12 @@ public class MenuActivity extends FragmentActivity{
         mascotteImage.setLayoutParams(new LinearLayout.LayoutParams((int)(ApplicationManager.SCREEN_H/2.5), (int)(ApplicationManager.SCREEN_H/2.5)));
         
         //FACEBOOK
-        Settings.addLoggingBehavior(LoggingBehavior.INCLUDE_ACCESS_TOKENS);
-
-        Session session = Session.getActiveSession();
-        if (session == null) {
-            if (savedInstanceState != null) {
-                session = Session.restoreSession(this, null, callback, savedInstanceState);
-            }
-            if (session == null) {
-                session = new Session(this);
-            }
-            Session.setActiveSession(session);
-            if (session.getState().equals(SessionState.CREATED_TOKEN_LOADED)) {
-                session.openForRead(new Session.OpenRequest(this).setCallback(callback));
-            }
-        }
+        uiHelper = new UiLifecycleHelper(this, callback);
+        uiHelper.onCreate(savedInstanceState);
 
         loginButton = (LoginButton)findViewById(R.id.authButton);
-        
-        logoutButton = (Button)findViewById(R.id.logoutButton);
-        
-        if (session.isOpened()) {
-        	logoutButton.setVisibility(View.VISIBLE);
-        	loginButton.setVisibility(View.GONE);
-        }else{
-        	logoutButton.setVisibility(View.GONE);
-        	loginButton.setVisibility(View.VISIBLE);
-        }
-        
-        loginButton.setOnClickListener(new OnClickListener() {
-			
-			@Override
-			public void onClick(View v) {
-				Session session = Session.getActiveSession();
-		        if (!session.isOpened() && !session.isClosed()) {
-		            session.openForRead(new Session.OpenRequest(MenuActivity.this).setCallback(callback));
-		        } else {
-		            Session.openActiveSession(MenuActivity.this, true, callback);
-		        }
-			}
-		});
-        
-        logoutButton.setOnClickListener(new OnClickListener() {
+        //loginButton.setPublishPermissions("publish_actions");
 
-        	@Override
-        	public void onClick(View v) {
-        		Session session = Session.getActiveSession();
-                if (!session.isClosed()) {
-                    session.closeAndClearTokenInformation();
-                }
-        	}
-        });
-        
         //SOLO LITE
         mascotteImage.setSoundEffectsEnabled(false);
         /*
