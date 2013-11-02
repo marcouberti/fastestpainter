@@ -339,6 +339,7 @@ public class MenuActivity extends FragmentActivity{
 		}
 	}
 
+	/*
 	@Override
     public void onStart() {
         super.onStart();
@@ -350,7 +351,7 @@ public class MenuActivity extends FragmentActivity{
         super.onStop();
         Session.getActiveSession().removeCallback(callback);
     }
-	
+	*/
 	
 	private boolean checkApplicationKill() {
 		if(ApplicationManager.APPLICATION_KILLED == null) {

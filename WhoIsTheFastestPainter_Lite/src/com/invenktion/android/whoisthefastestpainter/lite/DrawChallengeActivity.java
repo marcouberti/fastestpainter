@@ -18,6 +18,7 @@ import com.facebook.Response;
 import com.facebook.Session;
 import com.facebook.SessionState;
 import com.facebook.Settings;
+import com.facebook.UiLifecycleHelper;
 import com.invenktion.android.whoisthefastestpainter.lite.bean.AmmoBean;
 import com.invenktion.android.whoisthefastestpainter.lite.bean.PictureBean;
 import com.invenktion.android.whoisthefastestpainter.lite.bean.SectionArrayList;
@@ -39,6 +40,7 @@ import android.app.Activity;
 
 import android.app.Dialog;
 import android.content.DialogInterface;
+import android.content.Intent;
 import android.content.DialogInterface.OnDismissListener;
 
 import android.graphics.Bitmap;
@@ -88,6 +90,7 @@ public class DrawChallengeActivity extends Activity {
 	static final int DIALOG_INSTRUCTION = 7;
 	
 	//facebook
+	private UiLifecycleHelper uiHelper;
 	private static final List<String> PERMISSIONS = Arrays.asList("publish_actions");
 	private static final String PENDING_PUBLISH_KEY = "pendingPublishReauthorization";
 	private boolean pendingPublishReauthorization = false;
@@ -133,9 +136,22 @@ public class DrawChallengeActivity extends Activity {
 	protected int tutorialStep = 0;//per mostrare le immagini di tutorial
 	
 	@Override
+	public void onSaveInstanceState(Bundle outState) {
+	    super.onSaveInstanceState(outState);
+	    uiHelper.onSaveInstanceState(outState);
+	}
+	
+	@Override
+	public void onActivityResult(int requestCode, int resultCode, Intent data) {
+	    super.onActivityResult(requestCode, resultCode, data);
+	    uiHelper.onActivityResult(requestCode, resultCode, data);
+	}
+	
+	@Override
 	protected void onDestroy() {
 		super.onDestroy();
 		playingTime = false;
+		uiHelper.onDestroy();
 		//Rilascio le risorse Bitmap
 		if(fingerPaintDrawableView != null) {
 			fingerPaintDrawableView.recycleBitmaps();
@@ -158,6 +174,7 @@ public class DrawChallengeActivity extends Activity {
 
 	@Override
 	protected void onPause() {
+		uiHelper.onPause();
 		handlePausingGame();
 		super.onPause();
 		//Spengo la musica solo se un'altra applicazione è davanti alla nostra (VOICE CALL, HOME Button, etc..)
@@ -170,7 +187,7 @@ public class DrawChallengeActivity extends Activity {
 	
 	@Override
 	protected void onResume() {
-		
+		uiHelper.onResume();
 		//Aggiorno la view, per ovviare al bug del dialog che non si vede più dopo la pausa
 		if(playingTime && TimeManager.isPaused()){
     		showDialog(DIALOG_PAUSE);
@@ -248,21 +265,8 @@ public class DrawChallengeActivity extends Activity {
         }
         
         //FACEBOOK
-        Settings.addLoggingBehavior(LoggingBehavior.INCLUDE_ACCESS_TOKENS);
-
-        Session session = Session.getActiveSession();
-        if (session == null) {
-            if (savedInstanceState != null) {
-                session = Session.restoreSession(this, null, callback, savedInstanceState);
-            }
-            if (session == null) {
-                session = new Session(this);
-            }
-            Session.setActiveSession(session);
-            if (session.getState().equals(SessionState.CREATED_TOKEN_LOADED)) {
-                session.openForRead(new Session.OpenRequest(this).setCallback(callback));
-            }
-        }
+        uiHelper = new UiLifecycleHelper(this, callback);
+        uiHelper.onCreate(savedInstanceState);
         
         this.DENSITY = getApplicationContext().getResources().getDisplayMetrics().density;
         //backgroundDrawableView = new DynamicBackgroundDrawableView(this,R.drawable.desktop3,true);
