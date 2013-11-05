@@ -125,12 +125,20 @@ public class MenuActivity extends FragmentActivity{
 	@Override
 	public void onSaveInstanceState(Bundle outState) {
 	    super.onSaveInstanceState(outState);
-	    uiHelper.onSaveInstanceState(outState);
+	    try{
+	    	uiHelper.onSaveInstanceState(outState);
+	    }catch (Exception e) {
+			e.printStackTrace();//altrimenti crashava
+		}
 	}
 	
 	@Override
 	protected void onDestroy() {
-		uiHelper.onDestroy();
+		try {
+			uiHelper.onDestroy();
+		}catch (Exception e) {
+			e.printStackTrace();//altrimenti crashava
+		}
 		//Fermo le animazioni
 		ImageView im1 = ((ImageView)findViewById(R.id.roteableimage));
 		ImageView im2 = ((ImageView)findViewById(R.id.roteableimage2));
@@ -278,14 +286,21 @@ public class MenuActivity extends FragmentActivity{
 	@Override
 	public void onActivityResult(int requestCode, int resultCode, Intent data) {
 	    super.onActivityResult(requestCode, resultCode, data);
-	    uiHelper.onActivityResult(requestCode, resultCode, data);
+	    try {
+	    	uiHelper.onActivityResult(requestCode, resultCode, data);
+	    }catch (Exception e) {
+			e.printStackTrace();//altrimenti crashava
+		}
 	}
 
 	@Override
 	protected void onResume() {
 		super.onResume();
-		 uiHelper.onResume();
-		
+		try{
+			uiHelper.onResume();
+		}catch (Exception e) {
+			e.printStackTrace();//altrimenti crashava
+		}
 		/*
 		ImageView im1 = ((ImageView)findViewById(R.id.roteableimage));
 		ImageView im2 = ((ImageView)findViewById(R.id.roteableimage2));
@@ -353,7 +368,11 @@ public class MenuActivity extends FragmentActivity{
 	@Override
 	protected void onPause() {
 		super.onPause();
-		uiHelper.onPause();
+		try{
+			uiHelper.onPause();
+		}catch (Exception e) {
+			e.printStackTrace();//altrimenti crashava
+		}
 		//Spengo la musica solo se un'altra applicazione è davanti alla nostra (VOICE CALL, HOME Button, etc..)
 		if(ActivityHelper.isApplicationBroughtToBackground(this)) {
 			SoundManager.pauseBackgroundMusic();

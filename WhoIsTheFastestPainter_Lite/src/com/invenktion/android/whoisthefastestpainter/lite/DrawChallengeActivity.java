@@ -138,20 +138,32 @@ public class DrawChallengeActivity extends Activity {
 	@Override
 	public void onSaveInstanceState(Bundle outState) {
 	    super.onSaveInstanceState(outState);
-	    uiHelper.onSaveInstanceState(outState);
+	    try{
+	    	uiHelper.onSaveInstanceState(outState);
+	    }catch (Exception e) {
+			e.printStackTrace();//altrimenti crashava
+		}
 	}
 	
 	@Override
 	public void onActivityResult(int requestCode, int resultCode, Intent data) {
 	    super.onActivityResult(requestCode, resultCode, data);
-	    uiHelper.onActivityResult(requestCode, resultCode, data);
+	    try{
+	    	uiHelper.onActivityResult(requestCode, resultCode, data);
+	    }catch (Exception e) {
+			e.printStackTrace();//altrimenti crashava
+		}
 	}
 	
 	@Override
 	protected void onDestroy() {
 		super.onDestroy();
 		playingTime = false;
-		uiHelper.onDestroy();
+		try{
+			uiHelper.onDestroy();
+		}catch (Exception e) {
+			e.printStackTrace();//altrimenti crashava
+		}
 		//Rilascio le risorse Bitmap
 		if(fingerPaintDrawableView != null) {
 			fingerPaintDrawableView.recycleBitmaps();
@@ -174,7 +186,11 @@ public class DrawChallengeActivity extends Activity {
 
 	@Override
 	protected void onPause() {
-		uiHelper.onPause();
+		try{
+			uiHelper.onPause();
+		}catch (Exception e) {
+			e.printStackTrace();//altrimenti crashava
+		}
 		handlePausingGame();
 		super.onPause();
 		//Spengo la musica solo se un'altra applicazione è davanti alla nostra (VOICE CALL, HOME Button, etc..)
@@ -187,7 +203,11 @@ public class DrawChallengeActivity extends Activity {
 	
 	@Override
 	protected void onResume() {
-		uiHelper.onResume();
+		try{
+			uiHelper.onResume();
+		}catch (Exception e) {
+			e.printStackTrace();//altrimenti crashava
+		}
 		//Aggiorno la view, per ovviare al bug del dialog che non si vede più dopo la pausa
 		if(playingTime && TimeManager.isPaused()){
     		showDialog(DIALOG_PAUSE);
