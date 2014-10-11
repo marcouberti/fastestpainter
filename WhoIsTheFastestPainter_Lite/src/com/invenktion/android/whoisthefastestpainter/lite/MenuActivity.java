@@ -18,7 +18,6 @@ import com.invenktion.android.whoisthefastestpainter.lite.core.FontFactory;
 import com.invenktion.android.whoisthefastestpainter.lite.core.LevelManager;
 import com.invenktion.android.whoisthefastestpainter.lite.core.SoundManager;
 import com.invenktion.android.whoisthefastestpainter.lite.core.TimeManager;
-import com.invenktion.android.whoisthefastestpainter.lite.receiver.ScreenReceiver;
 import com.invenktion.android.whoisthefastestpainter.lite.utils.ActivityHelper;
 import com.invenktion.android.whoisthefastestpainter.lite.utils.LogUtils;
 import com.invenktion.android.whoisthefastestpainter.lite.utils.SharedPreferencesUtils;
@@ -77,8 +76,6 @@ public class MenuActivity extends FragmentActivity{
 	
 	//Typeface font; 
 	float DENSITY = 1.0f;
-	
-	BroadcastReceiver mReceiver;
 	
 	static final int DIALOG_EXIT_APPLICATION = 0;
 	private boolean waiting = false;
@@ -177,9 +174,7 @@ public class MenuActivity extends FragmentActivity{
 		LevelManager.clearAllCachedImage();
 		//AnimationFactory.releaseAllAnimation();
 		//Log.d("Sound finalized!","### Sound finalized! ###");
-		if(mReceiver != null) {
-			unregisterReceiver(mReceiver);
-		}
+
 		//Log.e("MenuActivity","DESTROY MenuActivity ####################");
 		super.onDestroy();
 	}
@@ -373,10 +368,7 @@ public class MenuActivity extends FragmentActivity{
 		}catch (Exception e) {
 			e.printStackTrace();//altrimenti crashava
 		}
-		//Spengo la musica solo se un'altra applicazione è davanti alla nostra (VOICE CALL, HOME Button, etc..)
-		if(ActivityHelper.isApplicationBroughtToBackground(this)) {
-			SoundManager.pauseBackgroundMusic();
-		}
+		
 	}
 
 	/*
@@ -412,12 +404,6 @@ public class MenuActivity extends FragmentActivity{
         
         //uiHelper = new UiLifecycleHelper(this, callback);
         //uiHelper.onCreate(savedInstanceState);
-        
-        IntentFilter filter = new IntentFilter(Intent.ACTION_SCREEN_ON);
-        filter.addAction(Intent.ACTION_SCREEN_OFF);
-        filter.addAction(Intent.ACTION_USER_PRESENT);
-        mReceiver = new ScreenReceiver();
-        registerReceiver(mReceiver, filter);
         
         setContentView(R.layout.home);
         this.DENSITY = getApplicationContext().getResources().getDisplayMetrics().density;
