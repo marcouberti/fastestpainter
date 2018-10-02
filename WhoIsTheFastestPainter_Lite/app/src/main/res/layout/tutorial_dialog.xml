@@ -1,0 +1,83 @@
+<FrameLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+   		android:id="@+id/frameunlockedsection"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >	
+			<LinearLayout
+			              android:orientation="vertical"
+			              android:layout_width="wrap_content"
+			              android:layout_height="wrap_content"
+			              android:layout_gravity="center_horizontal"
+			              android:gravity="center_horizontal"
+			              android:minWidth="250dp"
+			              >
+			              <ImageView android:id="@+id/instructionImage"
+					               android:layout_width="200dp"
+					               android:layout_height="200dp"
+					               android:src="@drawable/tutorial1"
+					               />
+            </LinearLayout>
+            <LinearLayout
+			    android:layout_width="fill_parent"
+			    android:layout_height="wrap_content"
+			    android:orientation="horizontal"
+			    android:gravity="center_horizontal"
+			    android:layout_gravity="center_horizontal"
+			    >
+	            <LinearLayout
+				    android:layout_width="fill_parent"
+				    android:layout_height="wrap_content"
+				    android:orientation="horizontal"
+				    android:gravity="center_horizontal"
+				    android:layout_gravity="center_horizontal"
+				    >
+				    <!-- IMMAGINE DI SPAZIAMENTO 
+	                <ImageView 
+						               android:layout_width="25dp"
+						               android:layout_height="25dp"
+						               android:src="@drawable/transparent"
+						               />
+	                <ImageView android:id="@+id/prevtutorial"
+						               android:layout_width="25dp"
+						               android:layout_height="25dp"
+						               android:src="@drawable/btn_left"
+						               />
+						               -->
+	                <!-- IMMAGINE DI SPAZIAMENTO 
+	                <ImageView 
+						               android:layout_width="25dp"
+						               android:layout_height="25dp"
+						               android:src="@drawable/transparent"
+						               />
+						               -->
+					<LinearLayout
+					    android:layout_width="wrap_content"
+					    android:layout_height="fill_parent"
+					    android:orientation="vertical"
+					    android:gravity="center_vertical"
+					    android:layout_gravity="center_vertical"
+					    >
+					    <TextView android:id="@+id/skiptext"
+								               android:layout_width="wrap_content"
+								               android:layout_height="wrap_content"
+								               android:textAppearance="@style/SkipText"
+								               android:text="@string/skip"
+								               android:gravity="right"
+								               android:layout_gravity="right"
+								               />
+					</LinearLayout>
+					<!-- IMMAGINE DI SPAZIAMENTO 
+	                <ImageView 
+						               android:layout_width="25dp"
+						               android:layout_height="25dp"
+						               android:src="@drawable/transparent"
+						               />
+				    <ImageView android:id="@+id/nexttutorial"
+						               android:layout_width="25dp"
+						               android:layout_height="25dp"
+						               android:src="@drawable/btn_right"
+						               />
+						               -->
+				</LinearLayout>
+			</LinearLayout>
+</FrameLayout>

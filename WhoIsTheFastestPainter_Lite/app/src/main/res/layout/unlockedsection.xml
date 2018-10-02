@@ -1,0 +1,28 @@
+<FrameLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+   		android:id="@+id/frameunlockedsection"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >	
+			<LinearLayout
+			              android:orientation="vertical"
+			              android:layout_width="wrap_content"
+			              android:layout_height="wrap_content"
+			              android:layout_gravity="center_horizontal"
+			              android:gravity="center_horizontal"
+			              android:minWidth="250dp"
+			              >
+			               <TextView android:id="@+id/unlockedtext"
+				               android:layout_width="wrap_content"
+				               android:layout_height="wrap_content"
+				               android:padding="1dp"
+				               android:gravity="center"
+				               android:textAppearance="@style/DialogPaintTextPercentageResult_White"
+				               android:text="@string/sectionunlocked"
+				               />
+			              <ImageView android:id="@+id/unlockedimage"
+					               android:layout_width="200dp"
+					               android:layout_height="200dp"
+					               android:src="@drawable/transparent"
+					               />
+              </LinearLayout>
+</FrameLayout>

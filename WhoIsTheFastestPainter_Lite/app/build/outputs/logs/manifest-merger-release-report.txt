@@ -1,0 +1,254 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/Marco/workspace/app-android/WhoIsTheFastestPainter_Lite_AS/app/src/main/AndroidManifest.xml:2:1-100:12
+INJECTED from /Users/Marco/workspace/app-android/WhoIsTheFastestPainter_Lite_AS/app/src/main/AndroidManifest.xml:2:1-100:12
+INJECTED from /Users/Marco/workspace/app-android/WhoIsTheFastestPainter_Lite_AS/app/src/main/AndroidManifest.xml:2:1-100:12
+INJECTED from /Users/Marco/workspace/app-android/WhoIsTheFastestPainter_Lite_AS/app/src/main/AndroidManifest.xml:2:1-100:12
+MERGED from [com.android.support:support-fragment:28.0.0] /Users/Marco/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/64dfc0cd717773330c6b373bff9e13d9/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:28.0.0] /Users/Marco/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/edff0afa1c893222d1b25ee4ea42c048/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:28.0.0] /Users/Marco/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/362c0831a33a0ca60cbc26969669f0c9/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:loader:28.0.0] /Users/Marco/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/a5974b1d55bf5a200bddc204c4c09157/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:viewpager:28.0.0] /Users/Marco/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/6601bb2194b2d9646a93b954ffa32794/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/Marco/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/2fd2ddf5b71b4a6fdefd30b6d7324672/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:drawerlayout:28.0.0] /Users/Marco/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/a3f5f5517f2b29e03122499e123e8faa/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/Marco/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/136d55a00850a2490ad21b71db63981f/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customview:28.0.0] /Users/Marco/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/d44da768d12734b79705439c9a5ca705/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/Marco/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/4325e33f4397fe307a4e422a8c643cc6/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/Marco/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/c97da551461f0c5447321d2ed0925b9c/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:28.0.0] /Users/Marco/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/e53da6816132554a8933316d41feaa6c/AndroidManifest.xml:17:1-24:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/Marco/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/5aa1069189cff82a62d16a95e55553dc/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/Marco/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/2c48988e791270bbd4d29f328c2fa358/AndroidManifest.xml:17:1-25:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/Marco/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/867a0648771bfd82a975085101a88757/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0] /Users/Marco/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/6a49cab212643b04952d79a7d3ca1679/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:cursoradapter:28.0.0] /Users/Marco/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/6f5e305604c3f89ae28b82f6ef409b44/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:documentfile:28.0.0] /Users/Marco/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/6fc9909b897104989e3bbb1217dfba84/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/Marco/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/620b212b69ebc64857dcf73b826e872a/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0] /Users/Marco/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/b402f83fefd24b8fa0d2b70cdf14ec94/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/Marco/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/bf967d1c15e6058e9a4ddeb3dbe80931/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/Marco/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/f2277c757849edb733e4629119f51466/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] /Users/Marco/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/6832119e28fc6116f67a07b0178dd778/AndroidManifest.xml:17:1-22:12
+INJECTED from /Users/Marco/workspace/app-android/WhoIsTheFastestPainter_Lite_AS/app/src/main/AndroidManifest.xml:2:1-100:12
+INJECTED from /Users/Marco/workspace/app-android/WhoIsTheFastestPainter_Lite_AS/app/src/main/AndroidManifest.xml:2:1-100:12
+INJECTED from /Users/Marco/workspace/app-android/WhoIsTheFastestPainter_Lite_AS/app/src/main/AndroidManifest.xml:2:1-100:12
+	package
+		ADDED from /Users/Marco/workspace/app-android/WhoIsTheFastestPainter_Lite_AS/app/src/main/AndroidManifest.xml:4:2-62
+		INJECTED from /Users/Marco/workspace/app-android/WhoIsTheFastestPainter_Lite_AS/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/Marco/workspace/app-android/WhoIsTheFastestPainter_Lite_AS/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/Marco/workspace/app-android/WhoIsTheFastestPainter_Lite_AS/app/src/main/AndroidManifest.xml
+		ADDED from /Users/Marco/workspace/app-android/WhoIsTheFastestPainter_Lite_AS/app/src/main/AndroidManifest.xml:2:1-100:12
+		INJECTED from /Users/Marco/workspace/app-android/WhoIsTheFastestPainter_Lite_AS/app/src/main/AndroidManifest.xml
+	xmlns:tools
+		ADDED from /Users/Marco/workspace/app-android/WhoIsTheFastestPainter_Lite_AS/app/src/main/AndroidManifest.xml:3:2-48
+	android:versionCode
+		INJECTED from /Users/Marco/workspace/app-android/WhoIsTheFastestPainter_Lite_AS/app/src/main/AndroidManifest.xml
+		ADDED from /Users/Marco/workspace/app-android/WhoIsTheFastestPainter_Lite_AS/app/src/main/AndroidManifest.xml:2:1-100:12
+		INJECTED from /Users/Marco/workspace/app-android/WhoIsTheFastestPainter_Lite_AS/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/Marco/workspace/app-android/WhoIsTheFastestPainter_Lite_AS/app/src/main/AndroidManifest.xml:2:11-69
+	android:installLocation
+		ADDED from /Users/Marco/workspace/app-android/WhoIsTheFastestPainter_Lite_AS/app/src/main/AndroidManifest.xml:5:9-39
+supports-screens
+ADDED from /Users/Marco/workspace/app-android/WhoIsTheFastestPainter_Lite_AS/app/src/main/AndroidManifest.xml:7:9-12:37
+	android:largeScreens
+		ADDED from /Users/Marco/workspace/app-android/WhoIsTheFastestPainter_Lite_AS/app/src/main/AndroidManifest.xml:11:6-33
+	android:smallScreens
+		ADDED from /Users/Marco/workspace/app-android/WhoIsTheFastestPainter_Lite_AS/app/src/main/AndroidManifest.xml:9:6-34
+	android:normalScreens
+		ADDED from /Users/Marco/workspace/app-android/WhoIsTheFastestPainter_Lite_AS/app/src/main/AndroidManifest.xml:10:6-34
+	android:xlargeScreens
+		ADDED from /Users/Marco/workspace/app-android/WhoIsTheFastestPainter_Lite_AS/app/src/main/AndroidManifest.xml:12:6-34
+	android:anyDensity
+		ADDED from /Users/Marco/workspace/app-android/WhoIsTheFastestPainter_Lite_AS/app/src/main/AndroidManifest.xml:8:6-31
+uses-permission#android.permission.INTERNET
+ADDED from /Users/Marco/workspace/app-android/WhoIsTheFastestPainter_Lite_AS/app/src/main/AndroidManifest.xml:14:9-71
+	android:name
+		ADDED from /Users/Marco/workspace/app-android/WhoIsTheFastestPainter_Lite_AS/app/src/main/AndroidManifest.xml:14:26-68
+application
+ADDED from /Users/Marco/workspace/app-android/WhoIsTheFastestPainter_Lite_AS/app/src/main/AndroidManifest.xml:16:6-98:20
+MERGED from [com.android.support:support-compat:28.0.0] /Users/Marco/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/e53da6816132554a8933316d41feaa6c/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0] /Users/Marco/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/e53da6816132554a8933316d41feaa6c/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/Marco/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/2c48988e791270bbd4d29f328c2fa358/AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/Marco/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/2c48988e791270bbd4d29f328c2fa358/AndroidManifest.xml:22:5-23:19
+	android:appComponentFactory
+		ADDED from [com.android.support:support-compat:28.0.0] /Users/Marco/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/e53da6816132554a8933316d41feaa6c/AndroidManifest.xml:22:18-91
+	android:label
+		ADDED from /Users/Marco/workspace/app-android/WhoIsTheFastestPainter_Lite_AS/app/src/main/AndroidManifest.xml:16:49-81
+	android:hardwareAccelerated
+		ADDED from /Users/Marco/workspace/app-android/WhoIsTheFastestPainter_Lite_AS/app/src/main/AndroidManifest.xml:16:82-116
+	tools:ignore
+		ADDED from /Users/Marco/workspace/app-android/WhoIsTheFastestPainter_Lite_AS/app/src/main/AndroidManifest.xml:19:4-43
+	android:icon
+		ADDED from /Users/Marco/workspace/app-android/WhoIsTheFastestPainter_Lite_AS/app/src/main/AndroidManifest.xml:16:19-48
+	android:allowBackup
+		ADDED from /Users/Marco/workspace/app-android/WhoIsTheFastestPainter_Lite_AS/app/src/main/AndroidManifest.xml:18:4-30
+	android:name
+		ADDED from /Users/Marco/workspace/app-android/WhoIsTheFastestPainter_Lite_AS/app/src/main/AndroidManifest.xml:17:10-39
+activity#com.invenktion.android.whoisthefastestpainter.lite.SplashScreenActivity
+ADDED from /Users/Marco/workspace/app-android/WhoIsTheFastestPainter_Lite_AS/app/src/main/AndroidManifest.xml:20:10-29:21
+	android:screenOrientation
+		ADDED from /Users/Marco/workspace/app-android/WhoIsTheFastestPainter_Lite_AS/app/src/main/AndroidManifest.xml:23:20-57
+	android:label
+		ADDED from /Users/Marco/workspace/app-android/WhoIsTheFastestPainter_Lite_AS/app/src/main/AndroidManifest.xml:21:20-52
+	android:configChanges
+		ADDED from /Users/Marco/workspace/app-android/WhoIsTheFastestPainter_Lite_AS/app/src/main/AndroidManifest.xml:24:20-97
+	android:theme
+		ADDED from /Users/Marco/workspace/app-android/WhoIsTheFastestPainter_Lite_AS/app/src/main/AndroidManifest.xml:22:20-58
+	android:name
+		ADDED from /Users/Marco/workspace/app-android/WhoIsTheFastestPainter_Lite_AS/app/src/main/AndroidManifest.xml:20:20-56
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/Marco/workspace/app-android/WhoIsTheFastestPainter_Lite_AS/app/src/main/AndroidManifest.xml:25:14-28:30
+action#android.intent.action.MAIN
+ADDED from /Users/Marco/workspace/app-android/WhoIsTheFastestPainter_Lite_AS/app/src/main/AndroidManifest.xml:26:18-70
+	android:name
+		ADDED from /Users/Marco/workspace/app-android/WhoIsTheFastestPainter_Lite_AS/app/src/main/AndroidManifest.xml:26:26-67
+category#android.intent.category.LAUNCHER
+ADDED from /Users/Marco/workspace/app-android/WhoIsTheFastestPainter_Lite_AS/app/src/main/AndroidManifest.xml:27:18-78
+	android:name
+		ADDED from /Users/Marco/workspace/app-android/WhoIsTheFastestPainter_Lite_AS/app/src/main/AndroidManifest.xml:27:28-75
+activity#com.invenktion.android.whoisthefastestpainter.lite.DrawChallengeActivity
+ADDED from /Users/Marco/workspace/app-android/WhoIsTheFastestPainter_Lite_AS/app/src/main/AndroidManifest.xml:30:10-38:21
+	android:screenOrientation
+		ADDED from /Users/Marco/workspace/app-android/WhoIsTheFastestPainter_Lite_AS/app/src/main/AndroidManifest.xml:33:20-57
+	android:label
+		ADDED from /Users/Marco/workspace/app-android/WhoIsTheFastestPainter_Lite_AS/app/src/main/AndroidManifest.xml:31:20-52
+	android:configChanges
+		ADDED from /Users/Marco/workspace/app-android/WhoIsTheFastestPainter_Lite_AS/app/src/main/AndroidManifest.xml:34:20-97
+	android:theme
+		ADDED from /Users/Marco/workspace/app-android/WhoIsTheFastestPainter_Lite_AS/app/src/main/AndroidManifest.xml:32:20-58
+	android:name
+		ADDED from /Users/Marco/workspace/app-android/WhoIsTheFastestPainter_Lite_AS/app/src/main/AndroidManifest.xml:30:20-57
+intent-filter#category:name:android.intent.category.LAUNCHER
+ADDED from /Users/Marco/workspace/app-android/WhoIsTheFastestPainter_Lite_AS/app/src/main/AndroidManifest.xml:35:14-37:30
+activity#com.invenktion.android.whoisthefastestpainter.lite.MenuActivity
+ADDED from /Users/Marco/workspace/app-android/WhoIsTheFastestPainter_Lite_AS/app/src/main/AndroidManifest.xml:39:10-47:21
+	android:screenOrientation
+		ADDED from /Users/Marco/workspace/app-android/WhoIsTheFastestPainter_Lite_AS/app/src/main/AndroidManifest.xml:42:20-57
+	android:label
+		ADDED from /Users/Marco/workspace/app-android/WhoIsTheFastestPainter_Lite_AS/app/src/main/AndroidManifest.xml:40:20-52
+	android:configChanges
+		ADDED from /Users/Marco/workspace/app-android/WhoIsTheFastestPainter_Lite_AS/app/src/main/AndroidManifest.xml:43:20-97
+	android:theme
+		ADDED from /Users/Marco/workspace/app-android/WhoIsTheFastestPainter_Lite_AS/app/src/main/AndroidManifest.xml:41:20-58
+	android:name
+		ADDED from /Users/Marco/workspace/app-android/WhoIsTheFastestPainter_Lite_AS/app/src/main/AndroidManifest.xml:39:20-48
+activity#com.invenktion.android.whoisthefastestpainter.lite.CreditsActivity
+ADDED from /Users/Marco/workspace/app-android/WhoIsTheFastestPainter_Lite_AS/app/src/main/AndroidManifest.xml:48:10-56:21
+	android:screenOrientation
+		ADDED from /Users/Marco/workspace/app-android/WhoIsTheFastestPainter_Lite_AS/app/src/main/AndroidManifest.xml:51:20-57
+	android:label
+		ADDED from /Users/Marco/workspace/app-android/WhoIsTheFastestPainter_Lite_AS/app/src/main/AndroidManifest.xml:49:20-52
+	android:configChanges
+		ADDED from /Users/Marco/workspace/app-android/WhoIsTheFastestPainter_Lite_AS/app/src/main/AndroidManifest.xml:52:20-97
+	android:theme
+		ADDED from /Users/Marco/workspace/app-android/WhoIsTheFastestPainter_Lite_AS/app/src/main/AndroidManifest.xml:50:20-58
+	android:name
+		ADDED from /Users/Marco/workspace/app-android/WhoIsTheFastestPainter_Lite_AS/app/src/main/AndroidManifest.xml:48:20-51
+activity#com.invenktion.android.whoisthefastestpainter.lite.ArcadeModeChooseLevelActivity
+ADDED from /Users/Marco/workspace/app-android/WhoIsTheFastestPainter_Lite_AS/app/src/main/AndroidManifest.xml:57:10-65:21
+	android:screenOrientation
+		ADDED from /Users/Marco/workspace/app-android/WhoIsTheFastestPainter_Lite_AS/app/src/main/AndroidManifest.xml:60:20-57
+	android:label
+		ADDED from /Users/Marco/workspace/app-android/WhoIsTheFastestPainter_Lite_AS/app/src/main/AndroidManifest.xml:58:20-52
+	android:configChanges
+		ADDED from /Users/Marco/workspace/app-android/WhoIsTheFastestPainter_Lite_AS/app/src/main/AndroidManifest.xml:61:20-97
+	android:theme
+		ADDED from /Users/Marco/workspace/app-android/WhoIsTheFastestPainter_Lite_AS/app/src/main/AndroidManifest.xml:59:20-58
+	android:name
+		ADDED from /Users/Marco/workspace/app-android/WhoIsTheFastestPainter_Lite_AS/app/src/main/AndroidManifest.xml:57:20-65
+activity#com.invenktion.android.whoisthefastestpainter.lite.SectionChoosingActivity
+ADDED from /Users/Marco/workspace/app-android/WhoIsTheFastestPainter_Lite_AS/app/src/main/AndroidManifest.xml:66:10-74:21
+	android:screenOrientation
+		ADDED from /Users/Marco/workspace/app-android/WhoIsTheFastestPainter_Lite_AS/app/src/main/AndroidManifest.xml:69:20-57
+	android:label
+		ADDED from /Users/Marco/workspace/app-android/WhoIsTheFastestPainter_Lite_AS/app/src/main/AndroidManifest.xml:67:20-52
+	android:configChanges
+		ADDED from /Users/Marco/workspace/app-android/WhoIsTheFastestPainter_Lite_AS/app/src/main/AndroidManifest.xml:70:20-97
+	android:theme
+		ADDED from /Users/Marco/workspace/app-android/WhoIsTheFastestPainter_Lite_AS/app/src/main/AndroidManifest.xml:68:20-58
+	android:name
+		ADDED from /Users/Marco/workspace/app-android/WhoIsTheFastestPainter_Lite_AS/app/src/main/AndroidManifest.xml:66:20-59
+activity#com.invenktion.android.whoisthefastestpainter.lite.AtelierChoosingPictureActivity
+ADDED from /Users/Marco/workspace/app-android/WhoIsTheFastestPainter_Lite_AS/app/src/main/AndroidManifest.xml:75:10-83:21
+	android:screenOrientation
+		ADDED from /Users/Marco/workspace/app-android/WhoIsTheFastestPainter_Lite_AS/app/src/main/AndroidManifest.xml:78:20-57
+	android:label
+		ADDED from /Users/Marco/workspace/app-android/WhoIsTheFastestPainter_Lite_AS/app/src/main/AndroidManifest.xml:76:20-52
+	android:configChanges
+		ADDED from /Users/Marco/workspace/app-android/WhoIsTheFastestPainter_Lite_AS/app/src/main/AndroidManifest.xml:79:20-97
+	android:theme
+		ADDED from /Users/Marco/workspace/app-android/WhoIsTheFastestPainter_Lite_AS/app/src/main/AndroidManifest.xml:77:20-58
+	android:name
+		ADDED from /Users/Marco/workspace/app-android/WhoIsTheFastestPainter_Lite_AS/app/src/main/AndroidManifest.xml:75:20-66
+activity#com.invenktion.android.whoisthefastestpainter.lite.AmmoActivity
+ADDED from /Users/Marco/workspace/app-android/WhoIsTheFastestPainter_Lite_AS/app/src/main/AndroidManifest.xml:84:10-92:21
+	android:screenOrientation
+		ADDED from /Users/Marco/workspace/app-android/WhoIsTheFastestPainter_Lite_AS/app/src/main/AndroidManifest.xml:87:20-57
+	android:label
+		ADDED from /Users/Marco/workspace/app-android/WhoIsTheFastestPainter_Lite_AS/app/src/main/AndroidManifest.xml:85:20-52
+	android:configChanges
+		ADDED from /Users/Marco/workspace/app-android/WhoIsTheFastestPainter_Lite_AS/app/src/main/AndroidManifest.xml:88:20-97
+	android:theme
+		ADDED from /Users/Marco/workspace/app-android/WhoIsTheFastestPainter_Lite_AS/app/src/main/AndroidManifest.xml:86:20-58
+	android:name
+		ADDED from /Users/Marco/workspace/app-android/WhoIsTheFastestPainter_Lite_AS/app/src/main/AndroidManifest.xml:84:20-48
+uses-sdk
+INJECTED from /Users/Marco/workspace/app-android/WhoIsTheFastestPainter_Lite_AS/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/Marco/workspace/app-android/WhoIsTheFastestPainter_Lite_AS/app/src/main/AndroidManifest.xml
+INJECTED from /Users/Marco/workspace/app-android/WhoIsTheFastestPainter_Lite_AS/app/src/main/AndroidManifest.xml
+MERGED from [com.android.support:support-fragment:28.0.0] /Users/Marco/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/64dfc0cd717773330c6b373bff9e13d9/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] /Users/Marco/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/64dfc0cd717773330c6b373bff9e13d9/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] /Users/Marco/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/edff0afa1c893222d1b25ee4ea42c048/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] /Users/Marco/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/edff0afa1c893222d1b25ee4ea42c048/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] /Users/Marco/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/362c0831a33a0ca60cbc26969669f0c9/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] /Users/Marco/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/362c0831a33a0ca60cbc26969669f0c9/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] /Users/Marco/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/a5974b1d55bf5a200bddc204c4c09157/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] /Users/Marco/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/a5974b1d55bf5a200bddc204c4c09157/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] /Users/Marco/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/6601bb2194b2d9646a93b954ffa32794/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] /Users/Marco/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/6601bb2194b2d9646a93b954ffa32794/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/Marco/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/2fd2ddf5b71b4a6fdefd30b6d7324672/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/Marco/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/2fd2ddf5b71b4a6fdefd30b6d7324672/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] /Users/Marco/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/a3f5f5517f2b29e03122499e123e8faa/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] /Users/Marco/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/a3f5f5517f2b29e03122499e123e8faa/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/Marco/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/136d55a00850a2490ad21b71db63981f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/Marco/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/136d55a00850a2490ad21b71db63981f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] /Users/Marco/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/d44da768d12734b79705439c9a5ca705/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] /Users/Marco/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/d44da768d12734b79705439c9a5ca705/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/Marco/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/4325e33f4397fe307a4e422a8c643cc6/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/Marco/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/4325e33f4397fe307a4e422a8c643cc6/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/Marco/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/c97da551461f0c5447321d2ed0925b9c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/Marco/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/c97da551461f0c5447321d2ed0925b9c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] /Users/Marco/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/e53da6816132554a8933316d41feaa6c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] /Users/Marco/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/e53da6816132554a8933316d41feaa6c/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/Marco/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/5aa1069189cff82a62d16a95e55553dc/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/Marco/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/5aa1069189cff82a62d16a95e55553dc/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/Marco/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/2c48988e791270bbd4d29f328c2fa358/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/Marco/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/2c48988e791270bbd4d29f328c2fa358/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/Marco/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/867a0648771bfd82a975085101a88757/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/Marco/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/867a0648771bfd82a975085101a88757/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /Users/Marco/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/6a49cab212643b04952d79a7d3ca1679/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /Users/Marco/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/6a49cab212643b04952d79a7d3ca1679/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] /Users/Marco/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/6f5e305604c3f89ae28b82f6ef409b44/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] /Users/Marco/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/6f5e305604c3f89ae28b82f6ef409b44/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] /Users/Marco/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/6fc9909b897104989e3bbb1217dfba84/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] /Users/Marco/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/6fc9909b897104989e3bbb1217dfba84/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/Marco/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/620b212b69ebc64857dcf73b826e872a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/Marco/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/620b212b69ebc64857dcf73b826e872a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] /Users/Marco/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/b402f83fefd24b8fa0d2b70cdf14ec94/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] /Users/Marco/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/b402f83fefd24b8fa0d2b70cdf14ec94/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/Marco/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/bf967d1c15e6058e9a4ddeb3dbe80931/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/Marco/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/bf967d1c15e6058e9a4ddeb3dbe80931/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/Marco/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/f2277c757849edb733e4629119f51466/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/Marco/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/f2277c757849edb733e4629119f51466/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /Users/Marco/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/6832119e28fc6116f67a07b0178dd778/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /Users/Marco/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/6832119e28fc6116f67a07b0178dd778/AndroidManifest.xml:20:5-44
+INJECTED from /Users/Marco/workspace/app-android/WhoIsTheFastestPainter_Lite_AS/app/src/main/AndroidManifest.xml
+INJECTED from /Users/Marco/workspace/app-android/WhoIsTheFastestPainter_Lite_AS/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/Marco/workspace/app-android/WhoIsTheFastestPainter_Lite_AS/app/src/main/AndroidManifest.xml
+		ADDED from /Users/Marco/workspace/app-android/WhoIsTheFastestPainter_Lite_AS/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/Marco/workspace/app-android/WhoIsTheFastestPainter_Lite_AS/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/Marco/workspace/app-android/WhoIsTheFastestPainter_Lite_AS/app/src/main/AndroidManifest.xml
+		ADDED from /Users/Marco/workspace/app-android/WhoIsTheFastestPainter_Lite_AS/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/Marco/workspace/app-android/WhoIsTheFastestPainter_Lite_AS/app/src/main/AndroidManifest.xml

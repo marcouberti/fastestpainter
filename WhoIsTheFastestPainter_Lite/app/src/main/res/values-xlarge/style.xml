@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="TimeFont_Black">
+        <item name="android:textColor">#000000</item>
+        <item name="android:textSize">70dp</item>
+    </style>
+    <style name="TimeFont_Red">
+        <item name="android:textColor">#FF0000</item>
+        <item name="android:textSize">70dp</item>
+    </style>
+    <style name="TimeFont_Black_Dialog_Percentage">
+        <item name="android:textColor">#000000</item>
+        <item name="android:textSize">30dp</item>
+    </style>
+    <style name="TimeFont_Black_DrawedLevelChoose">
+        <item name="android:textColor">#000000</item>
+        <item name="android:textSize">35dp</item>
+    </style>
+    <style name="TimeFont_Black_NumberScroll">
+        <item name="android:textColor">#000000</item>
+        <item name="android:textSize">35dp</item>
+    </style>
+    
+    <style name="TimeFont_Black_PictureTitle">
+        <item name="android:textColor">#000000</item>
+        <item name="android:textSize">30dp</item>
+    </style>
+    <style name="PaintSizeFont_Red">
+        <item name="android:textColor">#ff400d</item>
+        <item name="android:textSize">30dp</item>
+    </style>
+    <style name="DialogPaintBossPhrase_White">
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textSize">50dp</item>
+    </style>
+    <style name="DialogPaintTitle_White">
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textSize">35dp</item>
+    </style>
+    <style name="DialogPaintText_White">
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textSize">35dp</item>
+    </style>
+    <style name="DialogPaintTextPercentageResult_White">
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textSize">55dp</item>
+    </style>
+    <style name="UnlockedSubText_White">
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textSize">35dp</item>
+    </style>
+    <style name="DialogPaintText_White_Smaller">
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textSize">33dp</item>
+    </style>
+    <style name="HomeText_Azzurro">
+        <item name="android:textColor">#2791db</item>
+        <item name="android:textSize">55dp</item>
+    </style>
+    <style name="CreditsTextTitle_Azzurro">
+        <item name="android:textColor">#2791db</item>
+        <item name="android:textSize">40dp</item>
+    </style>
+    <style name="CreditsText_Nero">
+        <item name="android:textColor">#000000</item>
+        <item name="android:textSize">35dp</item>
+    </style>
+    <style name="CountdownFont_Black">
+        <item name="android:textColor">#2791db</item>
+        <item name="android:textSize">170dp</item>
+    </style>
+    <style name="AmmoGallery_Black_Skill">
+        <item name="android:textColor">#000000</item>
+        <item name="android:textSize">35dp</item>
+    </style>
+    <style name="AmmoGallery_Black_Title">
+        <item name="android:textColor">#000000</item>
+        <item name="android:textSize">37dp</item>
+    </style>
+    <style name="AmmoGallery_White_Title">
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textSize">35dp</item>
+    </style>
+    <style name="AmmoHowManyProbability_Text">
+        <item name="android:textColor">#FF0000</item>
+        <item name="android:textSize">40dp</item>
+    </style>
+    <style name="ExitText_Bianco">
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textSize">40dp</item>
+    </style>
+    <style name="SkipText">
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textSize">30dp</item>
+    </style>
+    <style name="SectionChoose_StarText">
+        <item name="android:textColor">#000000</item>
+        <item name="android:textSize">35dp</item>
+    </style>
+</resources>

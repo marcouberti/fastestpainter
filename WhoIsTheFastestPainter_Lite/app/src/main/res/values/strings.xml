@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+   <string name="app_id" translatable="false">587787887925853</string>
+   <string name="app_name" translatable="false">Fastest Painter</string>
+   <string name="continua" translatable="false">PLAY</string>
+   <string name="atelier" translatable="false">TRAINING</string>
+   <string name="experience" translatable="false">COINS</string>
+   <string name="armi" translatable="false">TRICKS &#38; TRAPS</string>
+   <string name="textexit" translatable="false">QUIT THE GAME?</string>
+   <string name="addprobabilitytext" translatable="false">BUY THIS TRICK &#38; TRAP?</string>
+   <string name="sectionunlocked" translatable="false">SECTION UNLOCKED</string>
+   <string name="bonusunlocked" translatable="false">BONUS UNLOCKED</string>
+   <string name="ammounlocked" translatable="false">TRICK &#38; TRAP UNLOCKED</string>
+   <string name="ammounlocked2" translatable="false">YOU CAN BUY IT NOW!</string>
+   <string name="blocked" translatable="false">PRO VERSION</string>
+   <string name="price" translatable="false">PRICE</string>
+   <string name="skip" translatable="false">SKIP</string>
+   <string name="congratulation" translatable="false">CONGRATULATIONS!\nNOW TRY TO UNLOCK ALL BONUS PICTURES \nGETTING THREE STARS ON ALL LEVELS.</string>
+   <string name="marketingtext" translatable="false">TRY INVENKTION NEW GAME?</string>
+</resources>
