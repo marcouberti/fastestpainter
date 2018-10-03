@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/Marco/workspace/app-android/WhoIsTheFastestPainter_Lite_AS/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-xlarge-v4/values-xlarge-v4.xml",
+            "outputFile": "/Users/Marco/fastestpainter/WhoIsTheFastestPainter_Lite/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-xlarge-v4/values-xlarge-v4.xml",
             "map": [
                 {
-                    "source": "/Users/Marco/workspace/app-android/WhoIsTheFastestPainter_Lite_AS/app/src/main/res/values-xlarge/style.xml",
+                    "source": "/Users/Marco/fastestpainter/WhoIsTheFastestPainter_Lite/app/src/main/res/values-xlarge/style.xml",
                     "from": {
                         "startLines": "71,75,79,83,67,59,63,31,43,39,51,35,87,55,27,95,91,2,10,14,18,23,6,47",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",

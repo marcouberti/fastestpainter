@@ -1,10 +1,29 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/Marco/workspace/app-android/WhoIsTheFastestPainter_Lite_AS/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml",
+            "outputFile": "/Users/Marco/fastestpainter/WhoIsTheFastestPainter_Lite/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml",
             "map": [
                 {
-                    "source": "/Users/Marco/workspace/app-android/WhoIsTheFastestPainter_Lite_AS/app/src/main/res/values/strings.xml",
+                    "source": "/Users/Marco/fastestpainter/WhoIsTheFastestPainter_Lite/app/src/main/res/values/attrs.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "57",
+                        "endLines": "4",
+                        "endColumns": "24",
+                        "endOffsets": "177"
+                    },
+                    "to": {
+                        "startLines": "232",
+                        "startColumns": "4",
+                        "startOffsets": "13605",
+                        "endLines": "234",
+                        "endColumns": "24",
+                        "endOffsets": "13722"
+                    }
+                },
+                {
+                    "source": "/Users/Marco/fastestpainter/WhoIsTheFastestPainter_Lite/app/src/main/res/values/strings.xml",
                     "from": {
                         "startLines": "9,12,13,2,3,7,5,14,11,17,4,6,18,15,10,16,8",
                         "startColumns": "3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3",
@@ -40,7 +59,7 @@
                     }
                 },
                 {
-                    "source": "/Users/Marco/workspace/app-android/WhoIsTheFastestPainter_Lite_AS/app/src/main/res/values/style.xml",
+                    "source": "/Users/Marco/fastestpainter/WhoIsTheFastestPainter_Lite/app/src/main/res/values/style.xml",
                     "from": {
                         "startLines": "79,83,87,91,75,67,71,39,51,47,59,43,95,63,2,10,35,103,99,6,18,22,26,31,14,55",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -56,25 +75,6 @@
                         "endLines": "289,293,297,301,305,309,313,317,321,325,329,333,337,341,345,349,353,357,361,376,380,384,388,392,396,400",
                         "endColumns": "12,12,12,12,12,12,12,12,12,12,12,12,12,12,9,12,12,12,12,12,12,12,12,12,12,12",
                         "endOffsets": "17325,17485,17645,17809,17966,18127,18280,18444,18618,18776,18942,19101,19253,19406,19621,19764,19918,20077,20222,21131,21300,21469,21633,21797,21946,22104"
-                    }
-                },
-                {
-                    "source": "/Users/Marco/workspace/app-android/WhoIsTheFastestPainter_Lite_AS/app/src/main/res/values/attrs.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "57",
-                        "endLines": "4",
-                        "endColumns": "24",
-                        "endOffsets": "177"
-                    },
-                    "to": {
-                        "startLines": "232",
-                        "startColumns": "4",
-                        "startOffsets": "13605",
-                        "endLines": "234",
-                        "endColumns": "24",
-                        "endOffsets": "13722"
                     }
                 },
                 {

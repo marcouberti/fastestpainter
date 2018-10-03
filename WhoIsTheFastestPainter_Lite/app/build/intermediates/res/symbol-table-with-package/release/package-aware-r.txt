@@ -177,7 +177,7 @@ drawable gommasize3
 drawable gommasize4
 drawable gommasize5
 drawable homemascotte
-drawable icon
+drawable ic_launcher_background
 drawable increase
 drawable ink
 drawable inkinstruction
@@ -410,7 +410,6 @@ id clip_vertical
 id continueButton
 id creditsimage
 id developed1
-id developed2
 id dialogbestandcreditscontainer
 id dialogbesttext
 id dialogbuttoncontainer
@@ -521,7 +520,6 @@ id twitter
 id unlockedimage
 id unlockedtext
 id unlockedtext2
-id whois1
 id yesButton
 integer status_bar_notification_info_maxnum
 layout add_weapon_dialog
@@ -550,6 +548,9 @@ layout unlockedammo
 layout unlockedbonus
 layout unlockedgame
 layout unlockedsection
+mipmap ic_launcher
+mipmap ic_launcher_foreground
+mipmap ic_launcher_round
 raw coins
 raw flush
 raw go

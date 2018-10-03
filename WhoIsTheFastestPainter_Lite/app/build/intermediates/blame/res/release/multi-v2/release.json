@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/Marco/workspace/app-android/WhoIsTheFastestPainter_Lite_AS/app/build/intermediates/res/merged/release/values-th_values-th.arsc.flat",
+            "outputFile": "/Users/Marco/fastestpainter/WhoIsTheFastestPainter_Lite/app/build/intermediates/res/merged/release/values-uz_values-uz.arsc.flat",
             "map": [
                 {
-                    "source": "/Users/Marco/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/e53da6816132554a8933316d41feaa6c/res/values-th/values-th.xml",
+                    "source": "/Users/Marco/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/e53da6816132554a8933316d41feaa6c/res/values-uz/values-uz.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -16,38 +16,7 @@
             ]
         },
         {
-            "outputFile": "/Users/Marco/workspace/app-android/WhoIsTheFastestPainter_Lite_AS/app/build/intermediates/res/merged/release/values-or_values-or.arsc.flat",
-            "map": [
-                {
-                    "source": "/Users/Marco/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/e53da6816132554a8933316d41feaa6c/res/values-or/values-or.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    }
-                }
-            ]
-        },
-        {
-            "outputFile": "/Users/Marco/workspace/app-android/WhoIsTheFastestPainter_Lite_AS/app/build/intermediates/res/merged/release/values-v21_values-v21.arsc.flat",
-            "map": [
-                {
-                    "source": "/Users/Marco/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/e53da6816132554a8933316d41feaa6c/res/values-v21/values-v21.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9,10,13",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,159,223,290,354,470,596,722,850,1022",
-                        "endLines": "2,3,4,5,6,7,8,9,12,17",
-                        "endColumns": "103,63,66,63,115,125,125,127,12,12",
-                        "endOffsets": "154,218,285,349,465,591,717,845,1017,1355"
-                    }
-                }
-            ]
-        },
-        {
-            "outputFile": "/Users/Marco/workspace/app-android/WhoIsTheFastestPainter_Lite_AS/app/build/intermediates/res/merged/release/values-lo_values-lo.arsc.flat",
+            "outputFile": "/Users/Marco/fastestpainter/WhoIsTheFastestPainter_Lite/app/build/intermediates/res/merged/release/values-lo_values-lo.arsc.flat",
             "map": [
                 {
                     "source": "/Users/Marco/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/e53da6816132554a8933316d41feaa6c/res/values-lo/values-lo.xml",
@@ -62,247 +31,7 @@
             ]
         },
         {
-            "outputFile": "/Users/Marco/workspace/app-android/WhoIsTheFastestPainter_Lite_AS/app/build/intermediates/res/merged/release/values-et_values-et.arsc.flat",
-            "map": [
-                {
-                    "source": "/Users/Marco/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/e53da6816132554a8933316d41feaa6c/res/values-et/values-et.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    }
-                }
-            ]
-        },
-        {
-            "outputFile": "/Users/Marco/workspace/app-android/WhoIsTheFastestPainter_Lite_AS/app/build/intermediates/res/merged/release/values-hu_values-hu.arsc.flat",
-            "map": [
-                {
-                    "source": "/Users/Marco/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/e53da6816132554a8933316d41feaa6c/res/values-hu/values-hu.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    }
-                }
-            ]
-        },
-        {
-            "outputFile": "/Users/Marco/workspace/app-android/WhoIsTheFastestPainter_Lite_AS/app/build/intermediates/res/merged/release/values-zh-rTW_values-zh-rTW.arsc.flat",
-            "map": [
-                {
-                    "source": "/Users/Marco/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/e53da6816132554a8933316d41feaa6c/res/values-zh-rTW/values-zh-rTW.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    }
-                }
-            ]
-        },
-        {
-            "outputFile": "/Users/Marco/workspace/app-android/WhoIsTheFastestPainter_Lite_AS/app/build/intermediates/res/merged/release/values-af_values-af.arsc.flat",
-            "map": [
-                {
-                    "source": "/Users/Marco/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/e53da6816132554a8933316d41feaa6c/res/values-af/values-af.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    }
-                }
-            ]
-        },
-        {
-            "outputFile": "/Users/Marco/workspace/app-android/WhoIsTheFastestPainter_Lite_AS/app/build/intermediates/res/merged/release/values-es-rUS_values-es-rUS.arsc.flat",
-            "map": [
-                {
-                    "source": "/Users/Marco/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/e53da6816132554a8933316d41feaa6c/res/values-es-rUS/values-es-rUS.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    }
-                }
-            ]
-        },
-        {
-            "outputFile": "/Users/Marco/workspace/app-android/WhoIsTheFastestPainter_Lite_AS/app/build/intermediates/res/merged/release/values-ja_values-ja.arsc.flat",
-            "map": [
-                {
-                    "source": "/Users/Marco/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/e53da6816132554a8933316d41feaa6c/res/values-ja/values-ja.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    }
-                }
-            ]
-        },
-        {
-            "outputFile": "/Users/Marco/workspace/app-android/WhoIsTheFastestPainter_Lite_AS/app/build/intermediates/res/merged/release/values-ru_values-ru.arsc.flat",
-            "map": [
-                {
-                    "source": "/Users/Marco/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/e53da6816132554a8933316d41feaa6c/res/values-ru/values-ru.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    }
-                }
-            ]
-        },
-        {
-            "outputFile": "/Users/Marco/workspace/app-android/WhoIsTheFastestPainter_Lite_AS/app/build/intermediates/res/merged/release/values-en-rCA_values-en-rCA.arsc.flat",
-            "map": [
-                {
-                    "source": "/Users/Marco/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/e53da6816132554a8933316d41feaa6c/res/values-en-rCA/values-en-rCA.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    }
-                }
-            ]
-        },
-        {
-            "outputFile": "/Users/Marco/workspace/app-android/WhoIsTheFastestPainter_Lite_AS/app/build/intermediates/res/merged/release/values-ko_values-ko.arsc.flat",
-            "map": [
-                {
-                    "source": "/Users/Marco/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/e53da6816132554a8933316d41feaa6c/res/values-ko/values-ko.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    }
-                }
-            ]
-        },
-        {
-            "outputFile": "/Users/Marco/workspace/app-android/WhoIsTheFastestPainter_Lite_AS/app/build/intermediates/res/merged/release/values-sl_values-sl.arsc.flat",
-            "map": [
-                {
-                    "source": "/Users/Marco/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/e53da6816132554a8933316d41feaa6c/res/values-sl/values-sl.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    }
-                }
-            ]
-        },
-        {
-            "outputFile": "/Users/Marco/workspace/app-android/WhoIsTheFastestPainter_Lite_AS/app/build/intermediates/res/merged/release/values-gl_values-gl.arsc.flat",
-            "map": [
-                {
-                    "source": "/Users/Marco/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/e53da6816132554a8933316d41feaa6c/res/values-gl/values-gl.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    }
-                }
-            ]
-        },
-        {
-            "outputFile": "/Users/Marco/workspace/app-android/WhoIsTheFastestPainter_Lite_AS/app/build/intermediates/res/merged/release/values-mk_values-mk.arsc.flat",
-            "map": [
-                {
-                    "source": "/Users/Marco/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/e53da6816132554a8933316d41feaa6c/res/values-mk/values-mk.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    }
-                }
-            ]
-        },
-        {
-            "outputFile": "/Users/Marco/workspace/app-android/WhoIsTheFastestPainter_Lite_AS/app/build/intermediates/res/merged/release/values-ka_values-ka.arsc.flat",
-            "map": [
-                {
-                    "source": "/Users/Marco/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/e53da6816132554a8933316d41feaa6c/res/values-ka/values-ka.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    }
-                }
-            ]
-        },
-        {
-            "outputFile": "/Users/Marco/workspace/app-android/WhoIsTheFastestPainter_Lite_AS/app/build/intermediates/res/merged/release/values-km_values-km.arsc.flat",
-            "map": [
-                {
-                    "source": "/Users/Marco/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/e53da6816132554a8933316d41feaa6c/res/values-km/values-km.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    }
-                }
-            ]
-        },
-        {
-            "outputFile": "/Users/Marco/workspace/app-android/WhoIsTheFastestPainter_Lite_AS/app/build/intermediates/res/merged/release/values-tl_values-tl.arsc.flat",
-            "map": [
-                {
-                    "source": "/Users/Marco/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/e53da6816132554a8933316d41feaa6c/res/values-tl/values-tl.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    }
-                }
-            ]
-        },
-        {
-            "outputFile": "/Users/Marco/workspace/app-android/WhoIsTheFastestPainter_Lite_AS/app/build/intermediates/res/merged/release/values-mr_values-mr.arsc.flat",
-            "map": [
-                {
-                    "source": "/Users/Marco/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/e53da6816132554a8933316d41feaa6c/res/values-mr/values-mr.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    }
-                }
-            ]
-        },
-        {
-            "outputFile": "/Users/Marco/workspace/app-android/WhoIsTheFastestPainter_Lite_AS/app/build/intermediates/res/merged/release/values-fr_values-fr.arsc.flat",
+            "outputFile": "/Users/Marco/fastestpainter/WhoIsTheFastestPainter_Lite/app/build/intermediates/res/merged/release/values-fr_values-fr.arsc.flat",
             "map": [
                 {
                     "source": "/Users/Marco/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/e53da6816132554a8933316d41feaa6c/res/values-fr/values-fr.xml",
@@ -317,10 +46,10 @@
             ]
         },
         {
-            "outputFile": "/Users/Marco/workspace/app-android/WhoIsTheFastestPainter_Lite_AS/app/build/intermediates/res/merged/release/values-uk_values-uk.arsc.flat",
+            "outputFile": "/Users/Marco/fastestpainter/WhoIsTheFastestPainter_Lite/app/build/intermediates/res/merged/release/values-th_values-th.arsc.flat",
             "map": [
                 {
-                    "source": "/Users/Marco/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/e53da6816132554a8933316d41feaa6c/res/values-uk/values-uk.xml",
+                    "source": "/Users/Marco/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/e53da6816132554a8933316d41feaa6c/res/values-th/values-th.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -332,25 +61,10 @@
             ]
         },
         {
-            "outputFile": "/Users/Marco/workspace/app-android/WhoIsTheFastestPainter_Lite_AS/app/build/intermediates/res/merged/release/values-en-rXC_values-en-rXC.arsc.flat",
+            "outputFile": "/Users/Marco/fastestpainter/WhoIsTheFastestPainter_Lite/app/build/intermediates/res/merged/release/values-et_values-et.arsc.flat",
             "map": [
                 {
-                    "source": "/Users/Marco/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/e53da6816132554a8933316d41feaa6c/res/values-en-rXC/values-en-rXC.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "202",
-                        "endOffsets": "253"
-                    }
-                }
-            ]
-        },
-        {
-            "outputFile": "/Users/Marco/workspace/app-android/WhoIsTheFastestPainter_Lite_AS/app/build/intermediates/res/merged/release/values-en-rGB_values-en-rGB.arsc.flat",
-            "map": [
-                {
-                    "source": "/Users/Marco/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/e53da6816132554a8933316d41feaa6c/res/values-en-rGB/values-en-rGB.xml",
+                    "source": "/Users/Marco/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/e53da6816132554a8933316d41feaa6c/res/values-et/values-et.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -362,10 +76,10 @@
             ]
         },
         {
-            "outputFile": "/Users/Marco/workspace/app-android/WhoIsTheFastestPainter_Lite_AS/app/build/intermediates/res/merged/release/values-hr_values-hr.arsc.flat",
+            "outputFile": "/Users/Marco/fastestpainter/WhoIsTheFastestPainter_Lite/app/build/intermediates/res/merged/release/values-as_values-as.arsc.flat",
             "map": [
                 {
-                    "source": "/Users/Marco/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/e53da6816132554a8933316d41feaa6c/res/values-hr/values-hr.xml",
+                    "source": "/Users/Marco/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/e53da6816132554a8933316d41feaa6c/res/values-as/values-as.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -377,10 +91,10 @@
             ]
         },
         {
-            "outputFile": "/Users/Marco/workspace/app-android/WhoIsTheFastestPainter_Lite_AS/app/build/intermediates/res/merged/release/values-kk_values-kk.arsc.flat",
+            "outputFile": "/Users/Marco/fastestpainter/WhoIsTheFastestPainter_Lite/app/build/intermediates/res/merged/release/values-ja_values-ja.arsc.flat",
             "map": [
                 {
-                    "source": "/Users/Marco/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/e53da6816132554a8933316d41feaa6c/res/values-kk/values-kk.xml",
+                    "source": "/Users/Marco/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/e53da6816132554a8933316d41feaa6c/res/values-ja/values-ja.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -392,10 +106,10 @@
             ]
         },
         {
-            "outputFile": "/Users/Marco/workspace/app-android/WhoIsTheFastestPainter_Lite_AS/app/build/intermediates/res/merged/release/values-fr-rCA_values-fr-rCA.arsc.flat",
+            "outputFile": "/Users/Marco/fastestpainter/WhoIsTheFastestPainter_Lite/app/build/intermediates/res/merged/release/values-sl_values-sl.arsc.flat",
             "map": [
                 {
-                    "source": "/Users/Marco/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/e53da6816132554a8933316d41feaa6c/res/values-fr-rCA/values-fr-rCA.xml",
+                    "source": "/Users/Marco/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/e53da6816132554a8933316d41feaa6c/res/values-sl/values-sl.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -407,10 +121,10 @@
             ]
         },
         {
-            "outputFile": "/Users/Marco/workspace/app-android/WhoIsTheFastestPainter_Lite_AS/app/build/intermediates/res/merged/release/values-pt-rPT_values-pt-rPT.arsc.flat",
+            "outputFile": "/Users/Marco/fastestpainter/WhoIsTheFastestPainter_Lite/app/build/intermediates/res/merged/release/values-ru_values-ru.arsc.flat",
             "map": [
                 {
-                    "source": "/Users/Marco/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/e53da6816132554a8933316d41feaa6c/res/values-pt-rPT/values-pt-rPT.xml",
+                    "source": "/Users/Marco/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/e53da6816132554a8933316d41feaa6c/res/values-ru/values-ru.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -422,10 +136,160 @@
             ]
         },
         {
-            "outputFile": "/Users/Marco/workspace/app-android/WhoIsTheFastestPainter_Lite_AS/app/build/intermediates/res/merged/release/values-large-v4_values-large-v4.arsc.flat",
+            "outputFile": "/Users/Marco/fastestpainter/WhoIsTheFastestPainter_Lite/app/build/intermediates/res/merged/release/values-iw_values-iw.arsc.flat",
             "map": [
                 {
-                    "source": "/Users/Marco/workspace/app-android/WhoIsTheFastestPainter_Lite_AS/app/src/main/res/values-large/style.xml",
+                    "source": "/Users/Marco/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/e53da6816132554a8933316d41feaa6c/res/values-iw/values-iw.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/Users/Marco/fastestpainter/WhoIsTheFastestPainter_Lite/app/build/intermediates/res/merged/release/values-hu_values-hu.arsc.flat",
+            "map": [
+                {
+                    "source": "/Users/Marco/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/e53da6816132554a8933316d41feaa6c/res/values-hu/values-hu.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/Users/Marco/fastestpainter/WhoIsTheFastestPainter_Lite/app/build/intermediates/res/merged/release/values-or_values-or.arsc.flat",
+            "map": [
+                {
+                    "source": "/Users/Marco/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/e53da6816132554a8933316d41feaa6c/res/values-or/values-or.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/Users/Marco/fastestpainter/WhoIsTheFastestPainter_Lite/app/build/intermediates/res/merged/release/values-zh-rCN_values-zh-rCN.arsc.flat",
+            "map": [
+                {
+                    "source": "/Users/Marco/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/e53da6816132554a8933316d41feaa6c/res/values-zh-rCN/values-zh-rCN.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/Users/Marco/fastestpainter/WhoIsTheFastestPainter_Lite/app/build/intermediates/res/merged/release/values-af_values-af.arsc.flat",
+            "map": [
+                {
+                    "source": "/Users/Marco/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/e53da6816132554a8933316d41feaa6c/res/values-af/values-af.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/Users/Marco/fastestpainter/WhoIsTheFastestPainter_Lite/app/build/intermediates/res/merged/release/values-mk_values-mk.arsc.flat",
+            "map": [
+                {
+                    "source": "/Users/Marco/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/e53da6816132554a8933316d41feaa6c/res/values-mk/values-mk.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/Users/Marco/fastestpainter/WhoIsTheFastestPainter_Lite/app/build/intermediates/res/merged/release/values-ko_values-ko.arsc.flat",
+            "map": [
+                {
+                    "source": "/Users/Marco/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/e53da6816132554a8933316d41feaa6c/res/values-ko/values-ko.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/Users/Marco/fastestpainter/WhoIsTheFastestPainter_Lite/app/build/intermediates/res/merged/release/values-ta_values-ta.arsc.flat",
+            "map": [
+                {
+                    "source": "/Users/Marco/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/e53da6816132554a8933316d41feaa6c/res/values-ta/values-ta.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/Users/Marco/fastestpainter/WhoIsTheFastestPainter_Lite/app/build/intermediates/res/merged/release/values-ka_values-ka.arsc.flat",
+            "map": [
+                {
+                    "source": "/Users/Marco/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/e53da6816132554a8933316d41feaa6c/res/values-ka/values-ka.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/Users/Marco/fastestpainter/WhoIsTheFastestPainter_Lite/app/build/intermediates/res/merged/release/values-gl_values-gl.arsc.flat",
+            "map": [
+                {
+                    "source": "/Users/Marco/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/e53da6816132554a8933316d41feaa6c/res/values-gl/values-gl.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/Users/Marco/fastestpainter/WhoIsTheFastestPainter_Lite/app/build/intermediates/res/merged/release/values-xlarge-v4_values-xlarge-v4.arsc.flat",
+            "map": [
+                {
+                    "source": "/Users/Marco/fastestpainter/WhoIsTheFastestPainter_Lite/app/src/main/res/values-xlarge/style.xml",
                     "from": {
                         "startLines": "71,75,79,83,67,59,63,31,43,39,51,35,87,55,27,95,91,2,10,14,18,23,6,47",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -446,10 +310,10 @@
             ]
         },
         {
-            "outputFile": "/Users/Marco/workspace/app-android/WhoIsTheFastestPainter_Lite_AS/app/build/intermediates/res/merged/release/values-ms_values-ms.arsc.flat",
+            "outputFile": "/Users/Marco/fastestpainter/WhoIsTheFastestPainter_Lite/app/build/intermediates/res/merged/release/values-tl_values-tl.arsc.flat",
             "map": [
                 {
-                    "source": "/Users/Marco/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/e53da6816132554a8933316d41feaa6c/res/values-ms/values-ms.xml",
+                    "source": "/Users/Marco/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/e53da6816132554a8933316d41feaa6c/res/values-tl/values-tl.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -461,10 +325,10 @@
             ]
         },
         {
-            "outputFile": "/Users/Marco/workspace/app-android/WhoIsTheFastestPainter_Lite_AS/app/build/intermediates/res/merged/release/values-fa_values-fa.arsc.flat",
+            "outputFile": "/Users/Marco/fastestpainter/WhoIsTheFastestPainter_Lite/app/build/intermediates/res/merged/release/values-fr-rCA_values-fr-rCA.arsc.flat",
             "map": [
                 {
-                    "source": "/Users/Marco/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/e53da6816132554a8933316d41feaa6c/res/values-fa/values-fa.xml",
+                    "source": "/Users/Marco/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/e53da6816132554a8933316d41feaa6c/res/values-fr-rCA/values-fr-rCA.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -476,10 +340,10 @@
             ]
         },
         {
-            "outputFile": "/Users/Marco/workspace/app-android/WhoIsTheFastestPainter_Lite_AS/app/build/intermediates/res/merged/release/values-ro_values-ro.arsc.flat",
+            "outputFile": "/Users/Marco/fastestpainter/WhoIsTheFastestPainter_Lite/app/build/intermediates/res/merged/release/values-lt_values-lt.arsc.flat",
             "map": [
                 {
-                    "source": "/Users/Marco/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/e53da6816132554a8933316d41feaa6c/res/values-ro/values-ro.xml",
+                    "source": "/Users/Marco/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/e53da6816132554a8933316d41feaa6c/res/values-lt/values-lt.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -491,10 +355,10 @@
             ]
         },
         {
-            "outputFile": "/Users/Marco/workspace/app-android/WhoIsTheFastestPainter_Lite_AS/app/build/intermediates/res/merged/release/values-sq_values-sq.arsc.flat",
+            "outputFile": "/Users/Marco/fastestpainter/WhoIsTheFastestPainter_Lite/app/build/intermediates/res/merged/release/values-en-rGB_values-en-rGB.arsc.flat",
             "map": [
                 {
-                    "source": "/Users/Marco/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/e53da6816132554a8933316d41feaa6c/res/values-sq/values-sq.xml",
+                    "source": "/Users/Marco/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/e53da6816132554a8933316d41feaa6c/res/values-en-rGB/values-en-rGB.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -506,10 +370,10 @@
             ]
         },
         {
-            "outputFile": "/Users/Marco/workspace/app-android/WhoIsTheFastestPainter_Lite_AS/app/build/intermediates/res/merged/release/values-ta_values-ta.arsc.flat",
+            "outputFile": "/Users/Marco/fastestpainter/WhoIsTheFastestPainter_Lite/app/build/intermediates/res/merged/release/values-gu_values-gu.arsc.flat",
             "map": [
                 {
-                    "source": "/Users/Marco/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/e53da6816132554a8933316d41feaa6c/res/values-ta/values-ta.xml",
+                    "source": "/Users/Marco/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/e53da6816132554a8933316d41feaa6c/res/values-gu/values-gu.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -521,277 +385,22 @@
             ]
         },
         {
-            "outputFile": "/Users/Marco/workspace/app-android/WhoIsTheFastestPainter_Lite_AS/app/build/intermediates/res/merged/release/values-cs_values-cs.arsc.flat",
+            "outputFile": "/Users/Marco/fastestpainter/WhoIsTheFastestPainter_Lite/app/build/intermediates/res/merged/release/values-en-rXC_values-en-rXC.arsc.flat",
             "map": [
                 {
-                    "source": "/Users/Marco/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/e53da6816132554a8933316d41feaa6c/res/values-cs/values-cs.xml",
+                    "source": "/Users/Marco/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/e53da6816132554a8933316d41feaa6c/res/values-en-rXC/values-en-rXC.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
                         "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
+                        "endColumns": "202",
+                        "endOffsets": "253"
                     }
                 }
             ]
         },
         {
-            "outputFile": "/Users/Marco/workspace/app-android/WhoIsTheFastestPainter_Lite_AS/app/build/intermediates/res/merged/release/values-v16_values-v16.arsc.flat",
-            "map": [
-                {
-                    "source": "/Users/Marco/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/e53da6816132554a8933316d41feaa6c/res/values-v16/values-v16.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "65",
-                        "endOffsets": "116"
-                    }
-                }
-            ]
-        },
-        {
-            "outputFile": "/Users/Marco/workspace/app-android/WhoIsTheFastestPainter_Lite_AS/app/build/intermediates/res/merged/release/values-hy_values-hy.arsc.flat",
-            "map": [
-                {
-                    "source": "/Users/Marco/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/e53da6816132554a8933316d41feaa6c/res/values-hy/values-hy.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    }
-                }
-            ]
-        },
-        {
-            "outputFile": "/Users/Marco/workspace/app-android/WhoIsTheFastestPainter_Lite_AS/app/build/intermediates/res/merged/release/values-iw_values-iw.arsc.flat",
-            "map": [
-                {
-                    "source": "/Users/Marco/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/e53da6816132554a8933316d41feaa6c/res/values-iw/values-iw.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    }
-                }
-            ]
-        },
-        {
-            "outputFile": "/Users/Marco/workspace/app-android/WhoIsTheFastestPainter_Lite_AS/app/build/intermediates/res/merged/release/values-sv_values-sv.arsc.flat",
-            "map": [
-                {
-                    "source": "/Users/Marco/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/e53da6816132554a8933316d41feaa6c/res/values-sv/values-sv.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    }
-                }
-            ]
-        },
-        {
-            "outputFile": "/Users/Marco/workspace/app-android/WhoIsTheFastestPainter_Lite_AS/app/build/intermediates/res/merged/release/values-mn_values-mn.arsc.flat",
-            "map": [
-                {
-                    "source": "/Users/Marco/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/e53da6816132554a8933316d41feaa6c/res/values-mn/values-mn.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    }
-                }
-            ]
-        },
-        {
-            "outputFile": "/Users/Marco/workspace/app-android/WhoIsTheFastestPainter_Lite_AS/app/build/intermediates/res/merged/release/values-az_values-az.arsc.flat",
-            "map": [
-                {
-                    "source": "/Users/Marco/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/e53da6816132554a8933316d41feaa6c/res/values-az/values-az.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    }
-                }
-            ]
-        },
-        {
-            "outputFile": "/Users/Marco/workspace/app-android/WhoIsTheFastestPainter_Lite_AS/app/build/intermediates/res/merged/release/values-bg_values-bg.arsc.flat",
-            "map": [
-                {
-                    "source": "/Users/Marco/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/e53da6816132554a8933316d41feaa6c/res/values-bg/values-bg.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    }
-                }
-            ]
-        },
-        {
-            "outputFile": "/Users/Marco/workspace/app-android/WhoIsTheFastestPainter_Lite_AS/app/build/intermediates/res/merged/release/values-nb_values-nb.arsc.flat",
-            "map": [
-                {
-                    "source": "/Users/Marco/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/e53da6816132554a8933316d41feaa6c/res/values-nb/values-nb.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    }
-                }
-            ]
-        },
-        {
-            "outputFile": "/Users/Marco/workspace/app-android/WhoIsTheFastestPainter_Lite_AS/app/build/intermediates/res/merged/release/values-bs_values-bs.arsc.flat",
-            "map": [
-                {
-                    "source": "/Users/Marco/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/e53da6816132554a8933316d41feaa6c/res/values-bs/values-bs.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    }
-                }
-            ]
-        },
-        {
-            "outputFile": "/Users/Marco/workspace/app-android/WhoIsTheFastestPainter_Lite_AS/app/build/intermediates/res/merged/release/values-as_values-as.arsc.flat",
-            "map": [
-                {
-                    "source": "/Users/Marco/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/e53da6816132554a8933316d41feaa6c/res/values-as/values-as.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    }
-                }
-            ]
-        },
-        {
-            "outputFile": "/Users/Marco/workspace/app-android/WhoIsTheFastestPainter_Lite_AS/app/build/intermediates/res/merged/release/values-de_values-de.arsc.flat",
-            "map": [
-                {
-                    "source": "/Users/Marco/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/e53da6816132554a8933316d41feaa6c/res/values-de/values-de.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    }
-                }
-            ]
-        },
-        {
-            "outputFile": "/Users/Marco/workspace/app-android/WhoIsTheFastestPainter_Lite_AS/app/build/intermediates/res/merged/release/values-zu_values-zu.arsc.flat",
-            "map": [
-                {
-                    "source": "/Users/Marco/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/e53da6816132554a8933316d41feaa6c/res/values-zu/values-zu.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    }
-                }
-            ]
-        },
-        {
-            "outputFile": "/Users/Marco/workspace/app-android/WhoIsTheFastestPainter_Lite_AS/app/build/intermediates/res/merged/release/values-pl_values-pl.arsc.flat",
-            "map": [
-                {
-                    "source": "/Users/Marco/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/e53da6816132554a8933316d41feaa6c/res/values-pl/values-pl.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    }
-                }
-            ]
-        },
-        {
-            "outputFile": "/Users/Marco/workspace/app-android/WhoIsTheFastestPainter_Lite_AS/app/build/intermediates/res/merged/release/values-zh-rHK_values-zh-rHK.arsc.flat",
-            "map": [
-                {
-                    "source": "/Users/Marco/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/e53da6816132554a8933316d41feaa6c/res/values-zh-rHK/values-zh-rHK.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    }
-                }
-            ]
-        },
-        {
-            "outputFile": "/Users/Marco/workspace/app-android/WhoIsTheFastestPainter_Lite_AS/app/build/intermediates/res/merged/release/values-es_values-es.arsc.flat",
-            "map": [
-                {
-                    "source": "/Users/Marco/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/e53da6816132554a8933316d41feaa6c/res/values-es/values-es.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    }
-                }
-            ]
-        },
-        {
-            "outputFile": "/Users/Marco/workspace/app-android/WhoIsTheFastestPainter_Lite_AS/app/build/intermediates/res/merged/release/values-tr_values-tr.arsc.flat",
-            "map": [
-                {
-                    "source": "/Users/Marco/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/e53da6816132554a8933316d41feaa6c/res/values-tr/values-tr.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    }
-                }
-            ]
-        },
-        {
-            "outputFile": "/Users/Marco/workspace/app-android/WhoIsTheFastestPainter_Lite_AS/app/build/intermediates/res/merged/release/values-da_values-da.arsc.flat",
-            "map": [
-                {
-                    "source": "/Users/Marco/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/e53da6816132554a8933316d41feaa6c/res/values-da/values-da.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    }
-                }
-            ]
-        },
-        {
-            "outputFile": "/Users/Marco/workspace/app-android/WhoIsTheFastestPainter_Lite_AS/app/build/intermediates/res/merged/release/values-b+sr+Latn_values-b+sr+Latn.arsc.flat",
+            "outputFile": "/Users/Marco/fastestpainter/WhoIsTheFastestPainter_Lite/app/build/intermediates/res/merged/release/values-b+sr+Latn_values-b+sr+Latn.arsc.flat",
             "map": [
                 {
                     "source": "/Users/Marco/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/e53da6816132554a8933316d41feaa6c/res/values-b+sr+Latn/values-b+sr+Latn.xml",
@@ -806,160 +415,29 @@
             ]
         },
         {
-            "outputFile": "/Users/Marco/workspace/app-android/WhoIsTheFastestPainter_Lite_AS/app/build/intermediates/res/merged/release/values-nl_values-nl.arsc.flat",
+            "outputFile": "/Users/Marco/fastestpainter/WhoIsTheFastestPainter_Lite/app/build/intermediates/res/merged/release/values_values.arsc.flat",
             "map": [
                 {
-                    "source": "/Users/Marco/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/e53da6816132554a8933316d41feaa6c/res/values-nl/values-nl.xml",
+                    "source": "/Users/Marco/fastestpainter/WhoIsTheFastestPainter_Lite/app/src/main/res/values/attrs.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    }
-                }
-            ]
-        },
-        {
-            "outputFile": "/Users/Marco/workspace/app-android/WhoIsTheFastestPainter_Lite_AS/app/build/intermediates/res/merged/release/values-ar_values-ar.arsc.flat",
-            "map": [
-                {
-                    "source": "/Users/Marco/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/e53da6816132554a8933316d41feaa6c/res/values-ar/values-ar.xml",
-                    "from": {
-                        "startLines": "2",
+                        "startOffsets": "57",
+                        "endLines": "4",
+                        "endColumns": "24",
+                        "endOffsets": "177"
+                    },
+                    "to": {
+                        "startLines": "232",
                         "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
+                        "startOffsets": "13605",
+                        "endLines": "234",
+                        "endColumns": "24",
+                        "endOffsets": "13722"
                     }
-                }
-            ]
-        },
-        {
-            "outputFile": "/Users/Marco/workspace/app-android/WhoIsTheFastestPainter_Lite_AS/app/build/intermediates/res/merged/release/values-it_values-it.arsc.flat",
-            "map": [
+                },
                 {
-                    "source": "/Users/Marco/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/e53da6816132554a8933316d41feaa6c/res/values-it/values-it.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    }
-                }
-            ]
-        },
-        {
-            "outputFile": "/Users/Marco/workspace/app-android/WhoIsTheFastestPainter_Lite_AS/app/build/intermediates/res/merged/release/values-be_values-be.arsc.flat",
-            "map": [
-                {
-                    "source": "/Users/Marco/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/e53da6816132554a8933316d41feaa6c/res/values-be/values-be.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    }
-                }
-            ]
-        },
-        {
-            "outputFile": "/Users/Marco/workspace/app-android/WhoIsTheFastestPainter_Lite_AS/app/build/intermediates/res/merged/release/values-bn_values-bn.arsc.flat",
-            "map": [
-                {
-                    "source": "/Users/Marco/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/e53da6816132554a8933316d41feaa6c/res/values-bn/values-bn.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    }
-                }
-            ]
-        },
-        {
-            "outputFile": "/Users/Marco/workspace/app-android/WhoIsTheFastestPainter_Lite_AS/app/build/intermediates/res/merged/release/values-sk_values-sk.arsc.flat",
-            "map": [
-                {
-                    "source": "/Users/Marco/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/e53da6816132554a8933316d41feaa6c/res/values-sk/values-sk.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    }
-                }
-            ]
-        },
-        {
-            "outputFile": "/Users/Marco/workspace/app-android/WhoIsTheFastestPainter_Lite_AS/app/build/intermediates/res/merged/release/values-ur_values-ur.arsc.flat",
-            "map": [
-                {
-                    "source": "/Users/Marco/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/e53da6816132554a8933316d41feaa6c/res/values-ur/values-ur.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    }
-                }
-            ]
-        },
-        {
-            "outputFile": "/Users/Marco/workspace/app-android/WhoIsTheFastestPainter_Lite_AS/app/build/intermediates/res/merged/release/values-my_values-my.arsc.flat",
-            "map": [
-                {
-                    "source": "/Users/Marco/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/e53da6816132554a8933316d41feaa6c/res/values-my/values-my.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    }
-                }
-            ]
-        },
-        {
-            "outputFile": "/Users/Marco/workspace/app-android/WhoIsTheFastestPainter_Lite_AS/app/build/intermediates/res/merged/release/values-zh-rCN_values-zh-rCN.arsc.flat",
-            "map": [
-                {
-                    "source": "/Users/Marco/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/e53da6816132554a8933316d41feaa6c/res/values-zh-rCN/values-zh-rCN.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    }
-                }
-            ]
-        },
-        {
-            "outputFile": "/Users/Marco/workspace/app-android/WhoIsTheFastestPainter_Lite_AS/app/build/intermediates/res/merged/release/values-kn_values-kn.arsc.flat",
-            "map": [
-                {
-                    "source": "/Users/Marco/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/e53da6816132554a8933316d41feaa6c/res/values-kn/values-kn.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    }
-                }
-            ]
-        },
-        {
-            "outputFile": "/Users/Marco/workspace/app-android/WhoIsTheFastestPainter_Lite_AS/app/build/intermediates/res/merged/release/values_values.arsc.flat",
-            "map": [
-                {
-                    "source": "/Users/Marco/workspace/app-android/WhoIsTheFastestPainter_Lite_AS/app/src/main/res/values/strings.xml",
+                    "source": "/Users/Marco/fastestpainter/WhoIsTheFastestPainter_Lite/app/src/main/res/values/strings.xml",
                     "from": {
                         "startLines": "9,12,13,2,3,7,5,14,11,17,4,6,18,15,10,16,8",
                         "startColumns": "3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3",
@@ -995,7 +473,7 @@
                     }
                 },
                 {
-                    "source": "/Users/Marco/workspace/app-android/WhoIsTheFastestPainter_Lite_AS/app/src/main/res/values/style.xml",
+                    "source": "/Users/Marco/fastestpainter/WhoIsTheFastestPainter_Lite/app/src/main/res/values/style.xml",
                     "from": {
                         "startLines": "79,83,87,91,75,67,71,39,51,47,59,43,95,63,2,10,35,103,99,6,18,22,26,31,14,55",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -1011,25 +489,6 @@
                         "endLines": "289,293,297,301,305,309,313,317,321,325,329,333,337,341,345,349,353,357,361,376,380,384,388,392,396,400",
                         "endColumns": "12,12,12,12,12,12,12,12,12,12,12,12,12,12,9,12,12,12,12,12,12,12,12,12,12,12",
                         "endOffsets": "17325,17485,17645,17809,17966,18127,18280,18444,18618,18776,18942,19101,19253,19406,19621,19764,19918,20077,20222,21131,21300,21469,21633,21797,21946,22104"
-                    }
-                },
-                {
-                    "source": "/Users/Marco/workspace/app-android/WhoIsTheFastestPainter_Lite_AS/app/src/main/res/values/attrs.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "57",
-                        "endLines": "4",
-                        "endColumns": "24",
-                        "endOffsets": "177"
-                    },
-                    "to": {
-                        "startLines": "232",
-                        "startColumns": "4",
-                        "startOffsets": "13605",
-                        "endLines": "234",
-                        "endColumns": "24",
-                        "endOffsets": "13722"
                     }
                 },
                 {
@@ -1054,127 +513,7 @@
             ]
         },
         {
-            "outputFile": "/Users/Marco/workspace/app-android/WhoIsTheFastestPainter_Lite_AS/app/build/intermediates/res/merged/release/values-sr_values-sr.arsc.flat",
-            "map": [
-                {
-                    "source": "/Users/Marco/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/e53da6816132554a8933316d41feaa6c/res/values-sr/values-sr.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    }
-                }
-            ]
-        },
-        {
-            "outputFile": "/Users/Marco/workspace/app-android/WhoIsTheFastestPainter_Lite_AS/app/build/intermediates/res/merged/release/values-te_values-te.arsc.flat",
-            "map": [
-                {
-                    "source": "/Users/Marco/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/e53da6816132554a8933316d41feaa6c/res/values-te/values-te.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    }
-                }
-            ]
-        },
-        {
-            "outputFile": "/Users/Marco/workspace/app-android/WhoIsTheFastestPainter_Lite_AS/app/build/intermediates/res/merged/release/values-el_values-el.arsc.flat",
-            "map": [
-                {
-                    "source": "/Users/Marco/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/e53da6816132554a8933316d41feaa6c/res/values-el/values-el.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    }
-                }
-            ]
-        },
-        {
-            "outputFile": "/Users/Marco/workspace/app-android/WhoIsTheFastestPainter_Lite_AS/app/build/intermediates/res/merged/release/values-ky_values-ky.arsc.flat",
-            "map": [
-                {
-                    "source": "/Users/Marco/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/e53da6816132554a8933316d41feaa6c/res/values-ky/values-ky.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    }
-                }
-            ]
-        },
-        {
-            "outputFile": "/Users/Marco/workspace/app-android/WhoIsTheFastestPainter_Lite_AS/app/build/intermediates/res/merged/release/values-ml_values-ml.arsc.flat",
-            "map": [
-                {
-                    "source": "/Users/Marco/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/e53da6816132554a8933316d41feaa6c/res/values-ml/values-ml.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    }
-                }
-            ]
-        },
-        {
-            "outputFile": "/Users/Marco/workspace/app-android/WhoIsTheFastestPainter_Lite_AS/app/build/intermediates/res/merged/release/values-ne_values-ne.arsc.flat",
-            "map": [
-                {
-                    "source": "/Users/Marco/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/e53da6816132554a8933316d41feaa6c/res/values-ne/values-ne.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    }
-                }
-            ]
-        },
-        {
-            "outputFile": "/Users/Marco/workspace/app-android/WhoIsTheFastestPainter_Lite_AS/app/build/intermediates/res/merged/release/values-en-rIN_values-en-rIN.arsc.flat",
-            "map": [
-                {
-                    "source": "/Users/Marco/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/e53da6816132554a8933316d41feaa6c/res/values-en-rIN/values-en-rIN.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    }
-                }
-            ]
-        },
-        {
-            "outputFile": "/Users/Marco/workspace/app-android/WhoIsTheFastestPainter_Lite_AS/app/build/intermediates/res/merged/release/values-vi_values-vi.arsc.flat",
-            "map": [
-                {
-                    "source": "/Users/Marco/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/e53da6816132554a8933316d41feaa6c/res/values-vi/values-vi.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    }
-                }
-            ]
-        },
-        {
-            "outputFile": "/Users/Marco/workspace/app-android/WhoIsTheFastestPainter_Lite_AS/app/build/intermediates/res/merged/release/values-am_values-am.arsc.flat",
+            "outputFile": "/Users/Marco/fastestpainter/WhoIsTheFastestPainter_Lite/app/build/intermediates/res/merged/release/values-am_values-am.arsc.flat",
             "map": [
                 {
                     "source": "/Users/Marco/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/e53da6816132554a8933316d41feaa6c/res/values-am/values-am.xml",
@@ -1189,97 +528,7 @@
             ]
         },
         {
-            "outputFile": "/Users/Marco/workspace/app-android/WhoIsTheFastestPainter_Lite_AS/app/build/intermediates/res/merged/release/values-pa_values-pa.arsc.flat",
-            "map": [
-                {
-                    "source": "/Users/Marco/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/e53da6816132554a8933316d41feaa6c/res/values-pa/values-pa.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    }
-                }
-            ]
-        },
-        {
-            "outputFile": "/Users/Marco/workspace/app-android/WhoIsTheFastestPainter_Lite_AS/app/build/intermediates/res/merged/release/values-gu_values-gu.arsc.flat",
-            "map": [
-                {
-                    "source": "/Users/Marco/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/e53da6816132554a8933316d41feaa6c/res/values-gu/values-gu.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    }
-                }
-            ]
-        },
-        {
-            "outputFile": "/Users/Marco/workspace/app-android/WhoIsTheFastestPainter_Lite_AS/app/build/intermediates/res/merged/release/values-hi_values-hi.arsc.flat",
-            "map": [
-                {
-                    "source": "/Users/Marco/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/e53da6816132554a8933316d41feaa6c/res/values-hi/values-hi.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    }
-                }
-            ]
-        },
-        {
-            "outputFile": "/Users/Marco/workspace/app-android/WhoIsTheFastestPainter_Lite_AS/app/build/intermediates/res/merged/release/values-pt_values-pt.arsc.flat",
-            "map": [
-                {
-                    "source": "/Users/Marco/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/e53da6816132554a8933316d41feaa6c/res/values-pt/values-pt.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    }
-                }
-            ]
-        },
-        {
-            "outputFile": "/Users/Marco/workspace/app-android/WhoIsTheFastestPainter_Lite_AS/app/build/intermediates/res/merged/release/values-in_values-in.arsc.flat",
-            "map": [
-                {
-                    "source": "/Users/Marco/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/e53da6816132554a8933316d41feaa6c/res/values-in/values-in.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    }
-                }
-            ]
-        },
-        {
-            "outputFile": "/Users/Marco/workspace/app-android/WhoIsTheFastestPainter_Lite_AS/app/build/intermediates/res/merged/release/values-lt_values-lt.arsc.flat",
-            "map": [
-                {
-                    "source": "/Users/Marco/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/e53da6816132554a8933316d41feaa6c/res/values-lt/values-lt.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    }
-                }
-            ]
-        },
-        {
-            "outputFile": "/Users/Marco/workspace/app-android/WhoIsTheFastestPainter_Lite_AS/app/build/intermediates/res/merged/release/values-ca_values-ca.arsc.flat",
+            "outputFile": "/Users/Marco/fastestpainter/WhoIsTheFastestPainter_Lite/app/build/intermediates/res/merged/release/values-ca_values-ca.arsc.flat",
             "map": [
                 {
                     "source": "/Users/Marco/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/e53da6816132554a8933316d41feaa6c/res/values-ca/values-ca.xml",
@@ -1294,10 +543,10 @@
             ]
         },
         {
-            "outputFile": "/Users/Marco/workspace/app-android/WhoIsTheFastestPainter_Lite_AS/app/build/intermediates/res/merged/release/values-sw_values-sw.arsc.flat",
+            "outputFile": "/Users/Marco/fastestpainter/WhoIsTheFastestPainter_Lite/app/build/intermediates/res/merged/release/values-pt-rPT_values-pt-rPT.arsc.flat",
             "map": [
                 {
-                    "source": "/Users/Marco/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/e53da6816132554a8933316d41feaa6c/res/values-sw/values-sw.xml",
+                    "source": "/Users/Marco/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/e53da6816132554a8933316d41feaa6c/res/values-pt-rPT/values-pt-rPT.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -1309,10 +558,10 @@
             ]
         },
         {
-            "outputFile": "/Users/Marco/workspace/app-android/WhoIsTheFastestPainter_Lite_AS/app/build/intermediates/res/merged/release/values-pt-rBR_values-pt-rBR.arsc.flat",
+            "outputFile": "/Users/Marco/fastestpainter/WhoIsTheFastestPainter_Lite/app/build/intermediates/res/merged/release/values-vi_values-vi.arsc.flat",
             "map": [
                 {
-                    "source": "/Users/Marco/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/e53da6816132554a8933316d41feaa6c/res/values-pt-rBR/values-pt-rBR.xml",
+                    "source": "/Users/Marco/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/e53da6816132554a8933316d41feaa6c/res/values-vi/values-vi.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -1324,10 +573,10 @@
             ]
         },
         {
-            "outputFile": "/Users/Marco/workspace/app-android/WhoIsTheFastestPainter_Lite_AS/app/build/intermediates/res/merged/release/values-lv_values-lv.arsc.flat",
+            "outputFile": "/Users/Marco/fastestpainter/WhoIsTheFastestPainter_Lite/app/build/intermediates/res/merged/release/values-pt_values-pt.arsc.flat",
             "map": [
                 {
-                    "source": "/Users/Marco/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/e53da6816132554a8933316d41feaa6c/res/values-lv/values-lv.xml",
+                    "source": "/Users/Marco/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/e53da6816132554a8933316d41feaa6c/res/values-pt/values-pt.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -1339,10 +588,10 @@
             ]
         },
         {
-            "outputFile": "/Users/Marco/workspace/app-android/WhoIsTheFastestPainter_Lite_AS/app/build/intermediates/res/merged/release/values-en-rAU_values-en-rAU.arsc.flat",
+            "outputFile": "/Users/Marco/fastestpainter/WhoIsTheFastestPainter_Lite/app/build/intermediates/res/merged/release/values-hi_values-hi.arsc.flat",
             "map": [
                 {
-                    "source": "/Users/Marco/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/e53da6816132554a8933316d41feaa6c/res/values-en-rAU/values-en-rAU.xml",
+                    "source": "/Users/Marco/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/e53da6816132554a8933316d41feaa6c/res/values-hi/values-hi.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -1354,7 +603,22 @@
             ]
         },
         {
-            "outputFile": "/Users/Marco/workspace/app-android/WhoIsTheFastestPainter_Lite_AS/app/build/intermediates/res/merged/release/values-is_values-is.arsc.flat",
+            "outputFile": "/Users/Marco/fastestpainter/WhoIsTheFastestPainter_Lite/app/build/intermediates/res/merged/release/values-in_values-in.arsc.flat",
+            "map": [
+                {
+                    "source": "/Users/Marco/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/e53da6816132554a8933316d41feaa6c/res/values-in/values-in.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/Users/Marco/fastestpainter/WhoIsTheFastestPainter_Lite/app/build/intermediates/res/merged/release/values-is_values-is.arsc.flat",
             "map": [
                 {
                     "source": "/Users/Marco/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/e53da6816132554a8933316d41feaa6c/res/values-is/values-is.xml",
@@ -1369,10 +633,10 @@
             ]
         },
         {
-            "outputFile": "/Users/Marco/workspace/app-android/WhoIsTheFastestPainter_Lite_AS/app/build/intermediates/res/merged/release/values-eu_values-eu.arsc.flat",
+            "outputFile": "/Users/Marco/fastestpainter/WhoIsTheFastestPainter_Lite/app/build/intermediates/res/merged/release/values-sw_values-sw.arsc.flat",
             "map": [
                 {
-                    "source": "/Users/Marco/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/e53da6816132554a8933316d41feaa6c/res/values-eu/values-eu.xml",
+                    "source": "/Users/Marco/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/e53da6816132554a8933316d41feaa6c/res/values-sw/values-sw.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -1384,7 +648,7 @@
             ]
         },
         {
-            "outputFile": "/Users/Marco/workspace/app-android/WhoIsTheFastestPainter_Lite_AS/app/build/intermediates/res/merged/release/values-si_values-si.arsc.flat",
+            "outputFile": "/Users/Marco/fastestpainter/WhoIsTheFastestPainter_Lite/app/build/intermediates/res/merged/release/values-si_values-si.arsc.flat",
             "map": [
                 {
                     "source": "/Users/Marco/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/e53da6816132554a8933316d41feaa6c/res/values-si/values-si.xml",
@@ -1399,10 +663,10 @@
             ]
         },
         {
-            "outputFile": "/Users/Marco/workspace/app-android/WhoIsTheFastestPainter_Lite_AS/app/build/intermediates/res/merged/release/values-uz_values-uz.arsc.flat",
+            "outputFile": "/Users/Marco/fastestpainter/WhoIsTheFastestPainter_Lite/app/build/intermediates/res/merged/release/values-pa_values-pa.arsc.flat",
             "map": [
                 {
-                    "source": "/Users/Marco/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/e53da6816132554a8933316d41feaa6c/res/values-uz/values-uz.xml",
+                    "source": "/Users/Marco/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/e53da6816132554a8933316d41feaa6c/res/values-pa/values-pa.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -1414,10 +678,280 @@
             ]
         },
         {
-            "outputFile": "/Users/Marco/workspace/app-android/WhoIsTheFastestPainter_Lite_AS/app/build/intermediates/res/merged/release/values-xlarge-v4_values-xlarge-v4.arsc.flat",
+            "outputFile": "/Users/Marco/fastestpainter/WhoIsTheFastestPainter_Lite/app/build/intermediates/res/merged/release/values-fi_values-fi.arsc.flat",
             "map": [
                 {
-                    "source": "/Users/Marco/workspace/app-android/WhoIsTheFastestPainter_Lite_AS/app/src/main/res/values-xlarge/style.xml",
+                    "source": "/Users/Marco/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/e53da6816132554a8933316d41feaa6c/res/values-fi/values-fi.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/Users/Marco/fastestpainter/WhoIsTheFastestPainter_Lite/app/build/intermediates/res/merged/release/values-zh-rHK_values-zh-rHK.arsc.flat",
+            "map": [
+                {
+                    "source": "/Users/Marco/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/e53da6816132554a8933316d41feaa6c/res/values-zh-rHK/values-zh-rHK.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/Users/Marco/fastestpainter/WhoIsTheFastestPainter_Lite/app/build/intermediates/res/merged/release/values-lv_values-lv.arsc.flat",
+            "map": [
+                {
+                    "source": "/Users/Marco/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/e53da6816132554a8933316d41feaa6c/res/values-lv/values-lv.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/Users/Marco/fastestpainter/WhoIsTheFastestPainter_Lite/app/build/intermediates/res/merged/release/values-ar_values-ar.arsc.flat",
+            "map": [
+                {
+                    "source": "/Users/Marco/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/e53da6816132554a8933316d41feaa6c/res/values-ar/values-ar.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/Users/Marco/fastestpainter/WhoIsTheFastestPainter_Lite/app/build/intermediates/res/merged/release/values-es-rUS_values-es-rUS.arsc.flat",
+            "map": [
+                {
+                    "source": "/Users/Marco/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/e53da6816132554a8933316d41feaa6c/res/values-es-rUS/values-es-rUS.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/Users/Marco/fastestpainter/WhoIsTheFastestPainter_Lite/app/build/intermediates/res/merged/release/values-sk_values-sk.arsc.flat",
+            "map": [
+                {
+                    "source": "/Users/Marco/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/e53da6816132554a8933316d41feaa6c/res/values-sk/values-sk.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/Users/Marco/fastestpainter/WhoIsTheFastestPainter_Lite/app/build/intermediates/res/merged/release/values-nl_values-nl.arsc.flat",
+            "map": [
+                {
+                    "source": "/Users/Marco/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/e53da6816132554a8933316d41feaa6c/res/values-nl/values-nl.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/Users/Marco/fastestpainter/WhoIsTheFastestPainter_Lite/app/build/intermediates/res/merged/release/values-it_values-it.arsc.flat",
+            "map": [
+                {
+                    "source": "/Users/Marco/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/e53da6816132554a8933316d41feaa6c/res/values-it/values-it.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/Users/Marco/fastestpainter/WhoIsTheFastestPainter_Lite/app/build/intermediates/res/merged/release/values-zh-rTW_values-zh-rTW.arsc.flat",
+            "map": [
+                {
+                    "source": "/Users/Marco/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/e53da6816132554a8933316d41feaa6c/res/values-zh-rTW/values-zh-rTW.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/Users/Marco/fastestpainter/WhoIsTheFastestPainter_Lite/app/build/intermediates/res/merged/release/values-da_values-da.arsc.flat",
+            "map": [
+                {
+                    "source": "/Users/Marco/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/e53da6816132554a8933316d41feaa6c/res/values-da/values-da.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/Users/Marco/fastestpainter/WhoIsTheFastestPainter_Lite/app/build/intermediates/res/merged/release/values-mn_values-mn.arsc.flat",
+            "map": [
+                {
+                    "source": "/Users/Marco/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/e53da6816132554a8933316d41feaa6c/res/values-mn/values-mn.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/Users/Marco/fastestpainter/WhoIsTheFastestPainter_Lite/app/build/intermediates/res/merged/release/values-eu_values-eu.arsc.flat",
+            "map": [
+                {
+                    "source": "/Users/Marco/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/e53da6816132554a8933316d41feaa6c/res/values-eu/values-eu.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/Users/Marco/fastestpainter/WhoIsTheFastestPainter_Lite/app/build/intermediates/res/merged/release/values-be_values-be.arsc.flat",
+            "map": [
+                {
+                    "source": "/Users/Marco/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/e53da6816132554a8933316d41feaa6c/res/values-be/values-be.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/Users/Marco/fastestpainter/WhoIsTheFastestPainter_Lite/app/build/intermediates/res/merged/release/values-ro_values-ro.arsc.flat",
+            "map": [
+                {
+                    "source": "/Users/Marco/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/e53da6816132554a8933316d41feaa6c/res/values-ro/values-ro.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/Users/Marco/fastestpainter/WhoIsTheFastestPainter_Lite/app/build/intermediates/res/merged/release/values-sr_values-sr.arsc.flat",
+            "map": [
+                {
+                    "source": "/Users/Marco/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/e53da6816132554a8933316d41feaa6c/res/values-sr/values-sr.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/Users/Marco/fastestpainter/WhoIsTheFastestPainter_Lite/app/build/intermediates/res/merged/release/values-el_values-el.arsc.flat",
+            "map": [
+                {
+                    "source": "/Users/Marco/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/e53da6816132554a8933316d41feaa6c/res/values-el/values-el.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/Users/Marco/fastestpainter/WhoIsTheFastestPainter_Lite/app/build/intermediates/res/merged/release/values-v16_values-v16.arsc.flat",
+            "map": [
+                {
+                    "source": "/Users/Marco/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/e53da6816132554a8933316d41feaa6c/res/values-v16/values-v16.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "65",
+                        "endOffsets": "116"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/Users/Marco/fastestpainter/WhoIsTheFastestPainter_Lite/app/build/intermediates/res/merged/release/values-ur_values-ur.arsc.flat",
+            "map": [
+                {
+                    "source": "/Users/Marco/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/e53da6816132554a8933316d41feaa6c/res/values-ur/values-ur.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/Users/Marco/fastestpainter/WhoIsTheFastestPainter_Lite/app/build/intermediates/res/merged/release/values-large-v4_values-large-v4.arsc.flat",
+            "map": [
+                {
+                    "source": "/Users/Marco/fastestpainter/WhoIsTheFastestPainter_Lite/app/src/main/res/values-large/style.xml",
                     "from": {
                         "startLines": "71,75,79,83,67,59,63,31,43,39,51,35,87,55,27,95,91,2,10,14,18,23,6,47",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -1438,10 +972,476 @@
             ]
         },
         {
-            "outputFile": "/Users/Marco/workspace/app-android/WhoIsTheFastestPainter_Lite_AS/app/build/intermediates/res/merged/release/values-fi_values-fi.arsc.flat",
+            "outputFile": "/Users/Marco/fastestpainter/WhoIsTheFastestPainter_Lite/app/build/intermediates/res/merged/release/values-ky_values-ky.arsc.flat",
             "map": [
                 {
-                    "source": "/Users/Marco/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/e53da6816132554a8933316d41feaa6c/res/values-fi/values-fi.xml",
+                    "source": "/Users/Marco/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/e53da6816132554a8933316d41feaa6c/res/values-ky/values-ky.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/Users/Marco/fastestpainter/WhoIsTheFastestPainter_Lite/app/build/intermediates/res/merged/release/values-fa_values-fa.arsc.flat",
+            "map": [
+                {
+                    "source": "/Users/Marco/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/e53da6816132554a8933316d41feaa6c/res/values-fa/values-fa.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/Users/Marco/fastestpainter/WhoIsTheFastestPainter_Lite/app/build/intermediates/res/merged/release/values-my_values-my.arsc.flat",
+            "map": [
+                {
+                    "source": "/Users/Marco/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/e53da6816132554a8933316d41feaa6c/res/values-my/values-my.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/Users/Marco/fastestpainter/WhoIsTheFastestPainter_Lite/app/build/intermediates/res/merged/release/values-ne_values-ne.arsc.flat",
+            "map": [
+                {
+                    "source": "/Users/Marco/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/e53da6816132554a8933316d41feaa6c/res/values-ne/values-ne.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/Users/Marco/fastestpainter/WhoIsTheFastestPainter_Lite/app/build/intermediates/res/merged/release/values-ml_values-ml.arsc.flat",
+            "map": [
+                {
+                    "source": "/Users/Marco/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/e53da6816132554a8933316d41feaa6c/res/values-ml/values-ml.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/Users/Marco/fastestpainter/WhoIsTheFastestPainter_Lite/app/build/intermediates/res/merged/release/values-es_values-es.arsc.flat",
+            "map": [
+                {
+                    "source": "/Users/Marco/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/e53da6816132554a8933316d41feaa6c/res/values-es/values-es.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/Users/Marco/fastestpainter/WhoIsTheFastestPainter_Lite/app/build/intermediates/res/merged/release/values-uk_values-uk.arsc.flat",
+            "map": [
+                {
+                    "source": "/Users/Marco/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/e53da6816132554a8933316d41feaa6c/res/values-uk/values-uk.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/Users/Marco/fastestpainter/WhoIsTheFastestPainter_Lite/app/build/intermediates/res/merged/release/values-tr_values-tr.arsc.flat",
+            "map": [
+                {
+                    "source": "/Users/Marco/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/e53da6816132554a8933316d41feaa6c/res/values-tr/values-tr.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/Users/Marco/fastestpainter/WhoIsTheFastestPainter_Lite/app/build/intermediates/res/merged/release/values-kn_values-kn.arsc.flat",
+            "map": [
+                {
+                    "source": "/Users/Marco/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/e53da6816132554a8933316d41feaa6c/res/values-kn/values-kn.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/Users/Marco/fastestpainter/WhoIsTheFastestPainter_Lite/app/build/intermediates/res/merged/release/values-mr_values-mr.arsc.flat",
+            "map": [
+                {
+                    "source": "/Users/Marco/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/e53da6816132554a8933316d41feaa6c/res/values-mr/values-mr.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/Users/Marco/fastestpainter/WhoIsTheFastestPainter_Lite/app/build/intermediates/res/merged/release/values-pl_values-pl.arsc.flat",
+            "map": [
+                {
+                    "source": "/Users/Marco/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/e53da6816132554a8933316d41feaa6c/res/values-pl/values-pl.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/Users/Marco/fastestpainter/WhoIsTheFastestPainter_Lite/app/build/intermediates/res/merged/release/values-en-rIN_values-en-rIN.arsc.flat",
+            "map": [
+                {
+                    "source": "/Users/Marco/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/e53da6816132554a8933316d41feaa6c/res/values-en-rIN/values-en-rIN.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/Users/Marco/fastestpainter/WhoIsTheFastestPainter_Lite/app/build/intermediates/res/merged/release/values-cs_values-cs.arsc.flat",
+            "map": [
+                {
+                    "source": "/Users/Marco/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/e53da6816132554a8933316d41feaa6c/res/values-cs/values-cs.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/Users/Marco/fastestpainter/WhoIsTheFastestPainter_Lite/app/build/intermediates/res/merged/release/values-km_values-km.arsc.flat",
+            "map": [
+                {
+                    "source": "/Users/Marco/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/e53da6816132554a8933316d41feaa6c/res/values-km/values-km.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/Users/Marco/fastestpainter/WhoIsTheFastestPainter_Lite/app/build/intermediates/res/merged/release/values-zu_values-zu.arsc.flat",
+            "map": [
+                {
+                    "source": "/Users/Marco/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/e53da6816132554a8933316d41feaa6c/res/values-zu/values-zu.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/Users/Marco/fastestpainter/WhoIsTheFastestPainter_Lite/app/build/intermediates/res/merged/release/values-ms_values-ms.arsc.flat",
+            "map": [
+                {
+                    "source": "/Users/Marco/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/e53da6816132554a8933316d41feaa6c/res/values-ms/values-ms.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/Users/Marco/fastestpainter/WhoIsTheFastestPainter_Lite/app/build/intermediates/res/merged/release/values-te_values-te.arsc.flat",
+            "map": [
+                {
+                    "source": "/Users/Marco/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/e53da6816132554a8933316d41feaa6c/res/values-te/values-te.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/Users/Marco/fastestpainter/WhoIsTheFastestPainter_Lite/app/build/intermediates/res/merged/release/values-sq_values-sq.arsc.flat",
+            "map": [
+                {
+                    "source": "/Users/Marco/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/e53da6816132554a8933316d41feaa6c/res/values-sq/values-sq.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/Users/Marco/fastestpainter/WhoIsTheFastestPainter_Lite/app/build/intermediates/res/merged/release/values-hr_values-hr.arsc.flat",
+            "map": [
+                {
+                    "source": "/Users/Marco/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/e53da6816132554a8933316d41feaa6c/res/values-hr/values-hr.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/Users/Marco/fastestpainter/WhoIsTheFastestPainter_Lite/app/build/intermediates/res/merged/release/values-v21_values-v21.arsc.flat",
+            "map": [
+                {
+                    "source": "/Users/Marco/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/e53da6816132554a8933316d41feaa6c/res/values-v21/values-v21.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,13",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,159,223,290,354,470,596,722,850,1022",
+                        "endLines": "2,3,4,5,6,7,8,9,12,17",
+                        "endColumns": "103,63,66,63,115,125,125,127,12,12",
+                        "endOffsets": "154,218,285,349,465,591,717,845,1017,1355"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/Users/Marco/fastestpainter/WhoIsTheFastestPainter_Lite/app/build/intermediates/res/merged/release/values-pt-rBR_values-pt-rBR.arsc.flat",
+            "map": [
+                {
+                    "source": "/Users/Marco/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/e53da6816132554a8933316d41feaa6c/res/values-pt-rBR/values-pt-rBR.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/Users/Marco/fastestpainter/WhoIsTheFastestPainter_Lite/app/build/intermediates/res/merged/release/values-bn_values-bn.arsc.flat",
+            "map": [
+                {
+                    "source": "/Users/Marco/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/e53da6816132554a8933316d41feaa6c/res/values-bn/values-bn.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/Users/Marco/fastestpainter/WhoIsTheFastestPainter_Lite/app/build/intermediates/res/merged/release/values-en-rCA_values-en-rCA.arsc.flat",
+            "map": [
+                {
+                    "source": "/Users/Marco/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/e53da6816132554a8933316d41feaa6c/res/values-en-rCA/values-en-rCA.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/Users/Marco/fastestpainter/WhoIsTheFastestPainter_Lite/app/build/intermediates/res/merged/release/values-hy_values-hy.arsc.flat",
+            "map": [
+                {
+                    "source": "/Users/Marco/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/e53da6816132554a8933316d41feaa6c/res/values-hy/values-hy.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/Users/Marco/fastestpainter/WhoIsTheFastestPainter_Lite/app/build/intermediates/res/merged/release/values-en-rAU_values-en-rAU.arsc.flat",
+            "map": [
+                {
+                    "source": "/Users/Marco/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/e53da6816132554a8933316d41feaa6c/res/values-en-rAU/values-en-rAU.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/Users/Marco/fastestpainter/WhoIsTheFastestPainter_Lite/app/build/intermediates/res/merged/release/values-kk_values-kk.arsc.flat",
+            "map": [
+                {
+                    "source": "/Users/Marco/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/e53da6816132554a8933316d41feaa6c/res/values-kk/values-kk.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/Users/Marco/fastestpainter/WhoIsTheFastestPainter_Lite/app/build/intermediates/res/merged/release/values-nb_values-nb.arsc.flat",
+            "map": [
+                {
+                    "source": "/Users/Marco/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/e53da6816132554a8933316d41feaa6c/res/values-nb/values-nb.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/Users/Marco/fastestpainter/WhoIsTheFastestPainter_Lite/app/build/intermediates/res/merged/release/values-bs_values-bs.arsc.flat",
+            "map": [
+                {
+                    "source": "/Users/Marco/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/e53da6816132554a8933316d41feaa6c/res/values-bs/values-bs.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/Users/Marco/fastestpainter/WhoIsTheFastestPainter_Lite/app/build/intermediates/res/merged/release/values-az_values-az.arsc.flat",
+            "map": [
+                {
+                    "source": "/Users/Marco/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/e53da6816132554a8933316d41feaa6c/res/values-az/values-az.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/Users/Marco/fastestpainter/WhoIsTheFastestPainter_Lite/app/build/intermediates/res/merged/release/values-bg_values-bg.arsc.flat",
+            "map": [
+                {
+                    "source": "/Users/Marco/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/e53da6816132554a8933316d41feaa6c/res/values-bg/values-bg.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/Users/Marco/fastestpainter/WhoIsTheFastestPainter_Lite/app/build/intermediates/res/merged/release/values-de_values-de.arsc.flat",
+            "map": [
+                {
+                    "source": "/Users/Marco/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/e53da6816132554a8933316d41feaa6c/res/values-de/values-de.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/Users/Marco/fastestpainter/WhoIsTheFastestPainter_Lite/app/build/intermediates/res/merged/release/values-sv_values-sv.arsc.flat",
+            "map": [
+                {
+                    "source": "/Users/Marco/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/e53da6816132554a8933316d41feaa6c/res/values-sv/values-sv.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

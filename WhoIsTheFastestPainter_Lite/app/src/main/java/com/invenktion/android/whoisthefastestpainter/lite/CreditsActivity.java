@@ -119,11 +119,10 @@ public class CreditsActivity extends Activity{
         TextView gamedesigntextvalue = (TextView)findViewById(R.id.gamedesigntextvalue);
         TextView gamedesigntextvalue2 = (TextView)findViewById(R.id.gamedesigntextvalue2);
         TextView dev1 = (TextView)findViewById(R.id.developed1);
-        TextView dev2 = (TextView)findViewById(R.id.developed2);
         TextView sound1 = (TextView)findViewById(R.id.sound1);
         TextView sound2 = (TextView)findViewById(R.id.sound2);
         TextView follow1 = (TextView)findViewById(R.id.follow1);
-        TextView whois1 = (TextView)findViewById(R.id.whois1);
+
         
         leadartisttext.setTypeface(FontFactory.getFont1(getApplicationContext()));
         leadprogrammertext.setTypeface(FontFactory.getFont1(getApplicationContext()));
@@ -133,11 +132,11 @@ public class CreditsActivity extends Activity{
         gamedesigntextvalue.setTypeface(FontFactory.getFont1(getApplicationContext()));
         gamedesigntextvalue2.setTypeface(FontFactory.getFont1(getApplicationContext()));
         dev1.setTypeface(FontFactory.getFont1(getApplicationContext()));
-        dev2.setTypeface(FontFactory.getFont1(getApplicationContext()));
+
         sound1.setTypeface(FontFactory.getFont1(getApplicationContext()));
         sound2.setTypeface(FontFactory.getFont1(getApplicationContext()));
         follow1.setTypeface(FontFactory.getFont1(getApplicationContext()));
-        whois1.setTypeface(FontFactory.getFont1(getApplicationContext()));
+
 
         scrollView = (ScrollView)findViewById(R.id.scrollcredits);
       
@@ -146,19 +145,7 @@ public class CreditsActivity extends Activity{
         ImageView bottomTrasp = (ImageView)findViewById(R.id.scrolltraspbottom);
         topTrasp.setLayoutParams(new LinearLayout.LayoutParams(10,ApplicationManager.SCREEN_H));
         bottomTrasp.setLayoutParams(new LinearLayout.LayoutParams(10,ApplicationManager.SCREEN_H));
-        
-        dev2.setOnClickListener(new OnClickListener() {
-			public void onClick(View v) {
-				Intent myIntent = new Intent(Intent.ACTION_VIEW,Uri.parse("http://www.invenktion.com"));
-		        startActivity(myIntent);
-			}
-		});
-        whois1.setOnClickListener(new OnClickListener() {
-			public void onClick(View v) {
-				Intent myIntent = new Intent(Intent.ACTION_VIEW,Uri.parse("http://www.invenktion.com"));
-		        startActivity(myIntent);
-			}
-		});
+
         
         startScrollingThread();
     }
